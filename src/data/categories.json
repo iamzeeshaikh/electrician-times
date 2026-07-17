@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "uncategorized",
+    "name": "Uncategorized",
+    "description": "",
+    "postCount": 2,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "socket",
+    "name": "Socket",
+    "description": "",
+    "postCount": 3,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "electrical",
+    "name": "Electrical",
+    "description": "",
+    "postCount": 40,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "lighting",
+    "name": "Lighting",
+    "description": "",
+    "postCount": 7,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "wiring",
+    "name": "Wiring",
+    "description": "",
+    "postCount": 4,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "power-lines",
+    "name": "Power Lines",
+    "description": "",
+    "postCount": 4,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "cable",
+    "name": "Cable",
+    "description": "",
+    "postCount": 9,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "wire",
+    "name": "Wire",
+    "description": "",
+    "postCount": 3,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "machines",
+    "name": "Machines",
+    "description": "",
+    "postCount": 3,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "installing",
+    "name": "Installing",
+    "description": "",
+    "postCount": 7,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "led",
+    "name": "LED",
+    "description": "",
+    "postCount": 3,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "device",
+    "name": "Device",
+    "description": "",
+    "postCount": 10,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "meters",
+    "name": "Meters",
+    "description": "",
+    "postCount": 2,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "ai",
+    "name": "AI",
+    "description": "",
+    "postCount": 3,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "loops",
+    "name": "Loops",
+    "description": "",
+    "postCount": 2,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "electricial-safety",
+    "name": "Electrical Safety",
+    "description": "",
+    "postCount": 5,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "blog",
+    "name": "Blog",
+    "description": "",
+    "postCount": 94,
+    "yoastTitle": null,
+    "yoastDescription": null
+  },
+  {
+    "slug": "business",
+    "name": "Business",
+    "description": "",
+    "postCount": 6,
+    "yoastTitle": null,
+    "yoastDescription": null
+  }
+]

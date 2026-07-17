@@ -1,0 +1,9 @@
+{
+  "steven": {
+    "slug": "steven",
+    "name": "Steven",
+    "role": "Editor",
+    "bio": "Steven is the editor of Electrician Times, where he writes and curates practical articles about electrical installations, wiring, tools and safety for electricians, technicians and homeowners.",
+    "note": "EDIT ME: add real author details, links and photo in src/data/authors.json. Do not invent credentials."
+  }
+}

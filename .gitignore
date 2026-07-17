@@ -10,8 +10,9 @@ node_modules/
 .env.*
 !.env.example
 
-# generated migration data (recreate with: npm run extract)
-data/
+# generated migration data at repo root (recreate with: npm run extract)
+# note: root-anchored so src/data/ stays committed
+/data/
 
 # original WordPress backups — keep locally, do not push to GitHub
 *.sql
