@@ -1,0 +1,19 @@
+source,destination,status,reason
+https://www.electriciantimes.com/*,https://electriciantimes.com/*,301,canonical host is apex domain (host-level rule in vercel.json; also configure www alias in Vercel domains)
+http://electriciantimes.com/*,https://electriciantimes.com/*,301,HTTPS enforcement (automatic on Vercel)
+/home-2/,/,301,theme demo homepage replaced by new homepage
+/home-3/,/,301,theme demo homepage replaced by new homepage
+/soledad_home/,/,301,theme demo homepage replaced by new homepage
+/feed/,/rss.xml,301,WordPress feed URL moved to static RSS
+/feed/*,/rss.xml,301,feed variants (atom/rdf) consolidated
+/comments/feed/,/rss.xml,301,comments feed removed; consolidated to main feed
+/<post-slug>/feed/,/<post-slug>/,301,per-post comment feeds removed
+/wp-sitemap.xml,/sitemap-index.xml,301,WordPress core sitemap moved
+/sitemap.xml,/sitemap-index.xml,301,common sitemap path normalized
+/sitemap_index.xml,/sitemap-index.xml,301,Yoast sitemap index moved
+/post-sitemap.xml,/sitemap-index.xml,301,Yoast child sitemap consolidated
+/page-sitemap.xml,/sitemap-index.xml,301,Yoast child sitemap consolidated
+/category-sitemap.xml,/sitemap-index.xml,301,Yoast child sitemap consolidated
+/author/admin/,/author/steven/,301,author archive consolidated to the single real author
+/wp-admin/*,/,302,WordPress admin no longer exists
+/wp-login.php,/,302,WordPress login no longer exists

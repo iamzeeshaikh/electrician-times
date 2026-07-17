@@ -1,0 +1,80 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import Pagination from '../../../components/Pagination.astro';
+import JsonLd from '../../../components/JsonLd.astro';
+import { getPublishedPosts, categories, categoryDescription } from '../../../utils/content';
+import { SITE_NAME, SITE_URL, absoluteUrl } from '../../../utils/site';
+
+const PER_PAGE = 12;
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const { getPublishedPosts, categories } = await import('../../../utils/content');
+  const posts = await getPublishedPosts();
+  const paths: any[] = [];
+  const PER = 12;
+  for (const cat of categories) {
+    const catPosts = posts.filter((p) => p.data.categories.includes(cat.slug));
+    if (!catPosts.length) continue;
+    const pages = Math.ceil(catPosts.length / PER);
+    for (let n = 1; n <= pages; n++) {
+      paths.push({
+        // WP URL pattern preserved: /category/x/ and /category/x/page/2/
+        params: { category: cat.slug, page: n === 1 ? undefined : `page/${n}` },
+        props: {
+          cat,
+          pageNum: n,
+          lastPage: pages,
+          posts: catPosts.slice((n - 1) * PER, n * PER),
+          total: catPosts.length,
+        },
+      });
+    }
+  }
+  return paths;
+};
+
+const { cat, pageNum, lastPage, posts, total } = Astro.props;
+
+const title = cat.yoastTitle || `${cat.name} Archives${pageNum > 1 ? ` - Page ${pageNum}` : ''} - ${SITE_NAME}`;
+const description =
+  cat.yoastDescription || `${categoryDescription(cat.slug)}${pageNum > 1 ? ` Page ${pageNum} of ${lastPage}.` : ''}`;
+const basePath = `/category/${cat.slug}`;
+const canonical = pageNum === 1 ? `${basePath}/` : `${basePath}/page/${pageNum}/`;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${cat.name} — ${SITE_NAME}`,
+  description,
+  url: absoluteUrl(canonical),
+  isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: `${SITE_URL}/` },
+};
+---
+
+<BaseLayout title={title} rawTitle={true} description={description} canonical={canonical}>
+  <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: cat.name }]} />
+  <div class="container">
+    <header class="article-header">
+      <h1>{cat.name}</h1>
+      <p class="card-meta">{total} article{total === 1 ? '' : 's'}</p>
+      <p>{categoryDescription(cat.slug)}</p>
+    </header>
+    <ul class="card-grid" style="margin-top:1.5rem">
+      {posts.map((p) => (
+        <li style="list-style:none">
+          <ArticleCard post={p} />
+        </li>
+      ))}
+    </ul>
+    <Pagination currentPage={pageNum} lastPage={lastPage} base={basePath} />
+  </div>
+  <JsonLd data={schema} />
+  {pageNum > 1 && (
+    <Fragment slot="head">
+      <link rel="prev" href={absoluteUrl(pageNum === 2 ? `${basePath}/` : `${basePath}/page/${pageNum - 1}/`)} />
+    </Fragment>
+  )}
+</BaseLayout>

@@ -1,0 +1,180 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import JsonLd from '../components/JsonLd.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import AuthorBox from '../components/AuthorBox.astro';
+import RelatedPosts from '../components/RelatedPosts.astro';
+import SocialShare from '../components/SocialShare.astro';
+import FaqSection from '../components/FaqSection.astro';
+import {
+  getPublishedPosts,
+  buildToc,
+  readingTime,
+  relatedPosts,
+  categoryName,
+  formatDate,
+  postUrl,
+} from '../utils/content';
+import { SITE_NAME, SITE_URL, SITE_LOGO, absoluteUrl } from '../utils/site';
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  const pages = await getCollection('pages');
+  return [
+    ...posts.map((entry, i) => ({
+      params: { slug: entry.data.slug },
+      props: {
+        kind: 'post' as const,
+        entry,
+        prev: posts[i + 1] ?? null, // older
+        next: posts[i - 1] ?? null, // newer
+      },
+    })),
+    // contact-us gets a custom route with the form
+    ...pages
+      .filter((p) => p.data.slug !== 'contact-us')
+      .map((entry) => ({
+        params: { slug: entry.data.slug },
+        props: { kind: 'page' as const, entry, prev: null, next: null },
+      })),
+  ];
+}
+
+const { kind, entry, prev, next } = Astro.props;
+const data = entry.data;
+const isPost = kind === 'post';
+
+const rawBody = entry.body ?? '';
+const { html, toc } = buildToc(rawBody);
+const minutes = readingTime(rawBody);
+
+const allPosts = await getPublishedPosts();
+const related = isPost ? relatedPosts(entry, allPosts, 4) : [];
+
+const primaryCat = isPost ? data.primaryCategory || data.categories[0] : undefined;
+const crumbs = isPost
+  ? [
+      { name: 'Home', href: '/' },
+      ...(primaryCat ? [{ name: categoryName(primaryCat), href: `/category/${primaryCat}/` }] : []),
+      { name: data.breadcrumbTitle || data.title },
+    ]
+  : [{ name: 'Home', href: '/' }, { name: data.title }];
+
+const pagePath = `/${data.slug}/`;
+
+const schema: Record<string, unknown> = isPost
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: data.seoTitle || data.title,
+      description: data.description,
+      ...(data.featuredImage ? { image: absoluteUrl(data.featuredImage) } : {}),
+      author: { '@type': 'Person', name: data.author, url: `${SITE_URL}/author/${data.author.toLowerCase()}/` },
+      publisher: {
+        '@type': 'Organization',
+        name: SITE_NAME,
+        logo: { '@type': 'ImageObject', url: absoluteUrl(SITE_LOGO) },
+      },
+      datePublished: data.publishDate.toISOString(),
+      ...(data.modifiedDate ? { dateModified: data.modifiedDate.toISOString() } : {}),
+      mainEntityOfPage: { '@type': 'WebPage', '@id': absoluteUrl(pagePath) },
+      ...(primaryCat ? { articleSection: categoryName(primaryCat) } : {}),
+      ...(data.focusKeyword ? { keywords: data.focusKeyword } : {}),
+    }
+  : {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: data.seoTitle || data.title,
+      description: data.description,
+      url: absoluteUrl(pagePath),
+    };
+
+const usesMarkdown = data.format === 'markdown';
+let MarkdownContent: any = null;
+if (usesMarkdown) {
+  ({ Content: MarkdownContent } = await render(entry));
+}
+---
+
+<BaseLayout
+  title={data.seoTitle || data.title}
+  rawTitle={Boolean(data.seoTitle)}
+  description={data.description}
+  canonical={data.canonical || pagePath}
+  noindex={data.noindex}
+  nofollow={data.nofollow}
+  ogType={isPost ? 'article' : 'website'}
+  ogImage={isPost ? (data as any).ogImage || (data as any).featuredImage : undefined}
+  ogImageAlt={isPost ? (data as any).featuredImageAlt : undefined}
+  publishDate={data.publishDate}
+  modifiedDate={data.modifiedDate}
+  author={isPost ? (data as any).author : undefined}
+>
+  <Breadcrumbs items={crumbs} />
+  <article class="container" data-pagefind-body={isPost ? '' : undefined}>
+    <header class="article-header">
+      <h1>{data.title}</h1>
+      {isPost && (
+        <p class="article-meta">
+          <span>By <a href={`/author/${(data as any).author.toLowerCase()}/`}>{(data as any).author}</a></span>
+          <span>
+            Published <time datetime={data.publishDate.toISOString()}>{formatDate(data.publishDate)}</time>
+          </span>
+          {data.modifiedDate && data.modifiedDate.valueOf() - data.publishDate.valueOf() > 86400000 && (
+            <span>
+              Updated <time datetime={data.modifiedDate.toISOString()}>{formatDate(data.modifiedDate)}</time>
+            </span>
+          )}
+          <span>{minutes} min read</span>
+        </p>
+      )}
+    </header>
+
+    {isPost && (data as any).featuredImage && (
+      <figure class="article-featured">
+        <img
+          src={(data as any).featuredImage}
+          alt={(data as any).featuredImageAlt || data.title}
+          width={(data as any).featuredImageWidth || 1200}
+          height={(data as any).featuredImageHeight || 675}
+          fetchpriority="high"
+          decoding="async"
+        />
+      </figure>
+    )}
+
+    {isPost && <TableOfContents toc={toc} minItems={4} />}
+
+    <div class="article-body">
+      {usesMarkdown && MarkdownContent ? <MarkdownContent /> : <Fragment set:html={html} />}
+    </div>
+
+    {isPost && (data as any).faq && <FaqSection faq={(data as any).faq} />}
+    {isPost && <SocialShare title={data.title} path={pagePath} />}
+    {isPost && <AuthorBox author={(data as any).author} />}
+
+    {isPost && (prev || next) && (
+      <nav class="prev-next" aria-label="More articles">
+        {prev ? (
+          <a href={postUrl(prev)} rel="prev">
+            <span class="label">← Older</span>
+            {prev.data.title}
+          </a>
+        ) : (
+          <span></span>
+        )}
+        {next && (
+          <a href={postUrl(next)} rel="next" class="next">
+            <span class="label">Newer →</span>
+            {next.data.title}
+          </a>
+        )}
+      </nav>
+    )}
+  </article>
+
+  {isPost && <RelatedPosts posts={related} />}
+  <JsonLd data={schema} />
+</BaseLayout>

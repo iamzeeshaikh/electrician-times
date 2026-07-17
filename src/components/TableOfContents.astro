@@ -1,0 +1,23 @@
+---
+import type { TocItem } from '../utils/content';
+
+export interface Props {
+  toc: TocItem[];
+  minItems?: number;
+}
+const { toc, minItems = 3 } = Astro.props;
+const show = toc.length >= minItems;
+---
+
+{show && (
+  <details class="toc" open>
+    <summary>Table of Contents</summary>
+    <ol>
+      {toc.map((item) => (
+        <li class={item.depth === 3 ? 'toc-h3' : undefined}>
+          <a href={`#${item.id}`}>{item.text}</a>
+        </li>
+      ))}
+    </ol>
+  </details>
+)}

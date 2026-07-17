@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getPublishedPosts } from '../utils/content';
+
+const recent = (await getPublishedPosts()).slice(0, 3);
+---
+
+<BaseLayout
+  title="Page Not Found"
+  description="The page you were looking for could not be found."
+  noindex={true}
+>
+  <div class="container" style="text-align:center; padding-block:3rem">
+    <h1>404 — Page Not Found</h1>
+    <p>The page you're looking for doesn't exist or may have moved.</p>
+    <p>
+      <a class="button" href="/">Back to Home</a>
+    </p>
+    <p><a href="/search/">Try searching</a> or browse the <a href="/sitemap/">sitemap</a>.</p>
+  </div>
+  <div class="container">
+    <div class="section-head"><h2>Recent Articles</h2></div>
+    <ul class="card-grid">
+      {recent.map((p) => (
+        <li style="list-style:none">
+          <ArticleCard post={p} showExcerpt={false} />
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

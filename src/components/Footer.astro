@@ -1,0 +1,49 @@
+---
+import { SITE_NAME, SITE_DESCRIPTION } from '../utils/site';
+import { categories } from '../utils/content';
+
+const year = new Date().getFullYear();
+const topCategories = [...categories].sort((a, b) => b.postCount - a.postCount).slice(0, 6);
+---
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2>{SITE_NAME}</h2>
+      <p>{SITE_DESCRIPTION}</p>
+    </div>
+    <nav aria-label="Footer — topics">
+      <h2>Topics</h2>
+      <ul>
+        {topCategories.map((c) => (
+          <li><a href={`/category/${c.slug}/`}>{c.name}</a></li>
+        ))}
+      </ul>
+    </nav>
+    <nav aria-label="Footer — site">
+      <h2>Site</h2>
+      <ul>
+        <li><a href="/about-us/">About Us</a></li>
+        <li><a href="/contact-us/">Contact Us</a></li>
+        <li><a href="/write-for-us/">Write for Us</a></li>
+        <li><a href="/editorial-policy/">Editorial Policy</a></li>
+        <li><a href="/sitemap/">Sitemap</a></li>
+        <li><a href="/search/">Search</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Footer — legal">
+      <h2>Legal</h2>
+      <ul>
+        <li><a href="/privacy-policy/">Privacy Policy</a></li>
+        <li><a href="/terms-and-conditions/">Terms and Conditions</a></li>
+        <li><a href="/disclaimer/">Disclaimer</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p>© {year} {SITE_NAME}. All rights reserved.</p>
+    <p>
+      Electrical work can be dangerous. Always consult a licensed electrician for installations and repairs.
+    </p>
+  </div>
+</footer>

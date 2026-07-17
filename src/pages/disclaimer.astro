@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+---
+
+<BaseLayout
+  title="Disclaimer"
+  description="Important information about the limits of the guidance published on Electrician Times and the need to use qualified electricians."
+  canonical="/disclaimer/"
+>
+  <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Disclaimer' }]} />
+  <div class="container page-body">
+    <h1>Disclaimer</h1>
+    <p>
+      The content on Electrician Times is provided for general informational and educational
+      purposes only. It is not professional advice, and it does not replace the training,
+      qualifications and local code knowledge of a licensed electrician.
+    </p>
+
+    <h2>No professional relationship</h2>
+    <p>
+      Reading this website does not create any professional or contractual relationship between
+      you and Electrician Times or its authors.
+    </p>
+
+    <h2>Electrical work is dangerous</h2>
+    <p>
+      Working with electricity can cause serious injury, fire or death. Never work on live
+      circuits. Requirements for electrical installations differ by country and region — always
+      follow the regulations that apply where you live, and hire a licensed, qualified electrician
+      for installations, repairs and inspections.
+    </p>
+
+    <h2>Accuracy</h2>
+    <p>
+      We work to keep articles accurate and current, but we make no warranties about completeness
+      or fitness for a particular purpose. Product details, prices and regulations change over
+      time.
+    </p>
+
+    <h2>External links</h2>
+    <p>
+      Articles may link to third-party websites, including contributor and guest-post links. We are
+      not responsible for the content or practices of external sites.
+    </p>
+
+    <p>
+      Questions about this disclaimer? <a href="/contact-us/">Contact us</a>.
+    </p>
+  </div>
+</BaseLayout>

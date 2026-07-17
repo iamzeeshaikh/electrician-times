@@ -1,0 +1,36 @@
+---
+import type { BlogPost } from '../utils/content';
+import { postUrl, excerpt, formatDate, categoryName } from '../utils/content';
+
+export interface Props {
+  post: BlogPost;
+  showExcerpt?: boolean;
+  headingLevel?: 'h2' | 'h3';
+  eager?: boolean;
+}
+const { post, showExcerpt = true, eager = false } = Astro.props;
+const cat = post.data.primaryCategory || post.data.categories[0];
+---
+
+<article class="article-card">
+  {post.data.featuredImage && (
+    <a href={postUrl(post)} tabindex="-1" aria-hidden="true">
+      <img
+        src={post.data.featuredImage}
+        alt=""
+        width={post.data.featuredImageWidth || 740}
+        height={post.data.featuredImageHeight || 462}
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
+      />
+    </a>
+  )}
+  <div class="card-body">
+    {cat && <a class="cat-pill" href={`/category/${cat}/`}>{categoryName(cat)}</a>}
+    <h3><a href={postUrl(post)}>{post.data.title}</a></h3>
+    <p class="card-meta">
+      <time datetime={post.data.publishDate.toISOString()}>{formatDate(post.data.publishDate)}</time>
+    </p>
+    {showExcerpt && <p class="card-excerpt">{excerpt(post, 140)}</p>}
+  </div>
+</article>

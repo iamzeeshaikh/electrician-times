@@ -1,0 +1,69 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import Pagination from '../../../components/Pagination.astro';
+import JsonLd from '../../../components/JsonLd.astro';
+import authorsData from '../../../data/authors.json';
+import { SITE_NAME, absoluteUrl } from '../../../utils/site';
+
+const PER = 12;
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const { getPublishedPosts } = await import('../../../utils/content');
+  const authors = (await import('../../../data/authors.json')).default as Record<string, any>;
+  const posts = await getPublishedPosts();
+  const PER = 12;
+  const paths: any[] = [];
+  for (const [slug, info] of Object.entries(authors)) {
+    const authored = posts.filter((p) => p.data.author.toLowerCase() === slug);
+    if (!authored.length) continue;
+    const pages = Math.ceil(authored.length / PER);
+    for (let n = 1; n <= pages; n++) {
+      paths.push({
+        params: { author: slug, page: n === 1 ? undefined : `page/${n}` },
+        props: { info, pageNum: n, lastPage: pages, posts: authored.slice((n - 1) * PER, n * PER), total: authored.length },
+      });
+    }
+  }
+  return paths;
+};
+
+const { info, pageNum, lastPage, posts, total } = Astro.props;
+const basePath = `/author/${info.slug}`;
+const canonical = pageNum === 1 ? `${basePath}/` : `${basePath}/page/${pageNum}/`;
+const title = `${info.name}, Author at ${SITE_NAME}${pageNum > 1 ? ` - Page ${pageNum}` : ''}`;
+const description = pageNum === 1 ? info.bio : `Articles by ${info.name} — page ${pageNum} of ${lastPage}. ${info.bio}`;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  mainEntity: {
+    '@type': 'Person',
+    name: info.name,
+    description: info.bio,
+    url: absoluteUrl(`${basePath}/`),
+  },
+};
+---
+
+<BaseLayout title={title} rawTitle={true} description={description} canonical={canonical}>
+  <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: `Author: ${info.name}` }]} />
+  <div class="container">
+    <header class="article-header">
+      <h1>{info.name}</h1>
+      <p>{info.bio}</p>
+      <p class="card-meta">{total} article{total === 1 ? '' : 's'}</p>
+    </header>
+    <ul class="card-grid" style="margin-top:1.5rem">
+      {posts.map((p) => (
+        <li style="list-style:none">
+          <ArticleCard post={p} />
+        </li>
+      ))}
+    </ul>
+    <Pagination currentPage={pageNum} lastPage={lastPage} base={basePath} />
+  </div>
+  <JsonLd data={schema} />
+</BaseLayout>

@@ -1,0 +1,33 @@
+---
+export interface Props {
+  currentPage: number;
+  lastPage: number;
+  /** e.g. "/category/blog" — page 1 lives at base, page N at `${base}/page/N/` */
+  base: string;
+}
+const { currentPage, lastPage, base } = Astro.props;
+
+const pageHref = (n: number) => (n === 1 ? `${base}/` : `${base}/page/${n}/`);
+
+const pages: (number | '…')[] = [];
+for (let i = 1; i <= lastPage; i++) {
+  if (i === 1 || i === lastPage || Math.abs(i - currentPage) <= 2) pages.push(i);
+  else if (pages[pages.length - 1] !== '…') pages.push('…');
+}
+---
+
+{lastPage > 1 && (
+  <nav class="pagination" aria-label="Pagination">
+    {currentPage > 1 && <a href={pageHref(currentPage - 1)} rel="prev">‹ Prev</a>}
+    {pages.map((p) =>
+      p === '…' ? (
+        <span aria-hidden="true">…</span>
+      ) : p === currentPage ? (
+        <span class="current" aria-current="page">{p}</span>
+      ) : (
+        <a href={pageHref(p)}>{p}</a>
+      )
+    )}
+    {currentPage < lastPage && <a href={pageHref(currentPage + 1)} rel="next">Next ›</a>}
+  </nav>
+)}

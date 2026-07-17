@@ -1,0 +1,115 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import NewsletterBox from '../components/NewsletterBox.astro';
+import JsonLd from '../components/JsonLd.astro';
+import { getPublishedPosts, categories, categoryDescription } from '../utils/content';
+import { SITE_NAME, SITE_URL, SITE_TAGLINE, SITE_DESCRIPTION, SITE_LOGO, absoluteUrl } from '../utils/site';
+
+const posts = await getPublishedPosts();
+const latest = posts.slice(0, 9);
+
+const FEATURED_SECTIONS = [
+  { slug: 'electrical', title: 'Electrical Fundamentals' },
+  { slug: 'electricial-safety', title: 'Electrical Safety' },
+  { slug: 'installing', title: 'Wiring & Installation' },
+  { slug: 'device', title: 'Devices & Equipment' },
+];
+
+const sections = FEATURED_SECTIONS.map((s) => ({
+  ...s,
+  posts: posts.filter((p) => p.data.categories.includes(s.slug)).slice(0, 3),
+})).filter((s) => s.posts.length > 0);
+
+const topCategories = [...categories]
+  .filter((c) => c.postCount >= 3 && c.slug !== 'uncategorized' && c.slug !== 'blog')
+  .sort((a, b) => b.postCount - a.postCount)
+  .slice(0, 8);
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE_NAME,
+    url: `${SITE_URL}/`,
+    description: SITE_DESCRIPTION,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/search/?q={search_term_string}` },
+      'query-input': 'required name=search_term_string',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: `${SITE_URL}/`,
+    logo: absoluteUrl(SITE_LOGO),
+  },
+];
+---
+
+<BaseLayout
+  title={`${SITE_NAME} - ${SITE_TAGLINE}`}
+  rawTitle={true}
+  description={SITE_DESCRIPTION}
+  canonical="/"
+>
+  <div class="hero">
+    <div class="container">
+      <h1>{SITE_NAME}</h1>
+      <p>
+        Practical guides on electrical installations, wiring, cables, tools and safety — written
+        for electricians, technicians, students and homeowners.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section-head">
+      <h2>Latest Articles</h2>
+      <a class="more" href="/category/blog/">All articles →</a>
+    </div>
+    <ul class="card-grid">
+      {latest.map((p, i) => (
+        <li style="list-style:none">
+          <ArticleCard post={p} eager={i < 3} />
+        </li>
+      ))}
+    </ul>
+
+    <div class="section-head">
+      <h2>Browse by Topic</h2>
+    </div>
+    <ul class="card-grid">
+      {topCategories.map((c) => (
+        <li style="list-style:none">
+          <a class="category-card" href={`/category/${c.slug}/`}>
+            <h3>{c.name}</h3>
+            <p>{categoryDescription(c.slug)}</p>
+            <span class="count">{c.postCount} article{c.postCount === 1 ? '' : 's'}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    {sections.map((s) => (
+      <section>
+        <div class="section-head">
+          <h2>{s.title}</h2>
+          <a class="more" href={`/category/${s.slug}/`}>More →</a>
+        </div>
+        <ul class="card-grid">
+          {s.posts.map((p) => (
+            <li style="list-style:none">
+              <ArticleCard post={p} showExcerpt={false} />
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    <NewsletterBox />
+  </div>
+  <JsonLd data={schema} />
+</BaseLayout>

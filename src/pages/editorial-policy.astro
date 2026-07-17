@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+---
+
+<BaseLayout
+  title="Editorial Policy"
+  description="How Electrician Times selects, writes, reviews and updates its articles, and how we handle corrections, guest posts and safety guidance."
+  canonical="/editorial-policy/"
+>
+  <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Editorial Policy' }]} />
+  <div class="container page-body">
+    <h1>Editorial Policy</h1>
+    <p>
+      Electrician Times publishes practical articles about electrical work, tools, devices and
+      safety. This page explains how our content is produced and maintained.
+    </p>
+
+    <h2>Accuracy and sources</h2>
+    <p>
+      We aim to describe electrical concepts, products and practices accurately. Where articles
+      discuss standards or regulations, readers should always confirm the requirements that apply
+      in their own country and jurisdiction, since electrical codes differ significantly between
+      regions and change over time.
+    </p>
+
+    <h2>Safety-first approach</h2>
+    <p>
+      Electricity can injure or kill. Our articles are informational and are not a substitute for
+      professional training. We consistently recommend that installations, repairs and any work on
+      live circuits be carried out by licensed, qualified electricians in accordance with local
+      regulations.
+    </p>
+
+    <h2>Guest contributions</h2>
+    <p>
+      We accept guest articles that fit our topics — see <a href="/write-for-us/">Write for Us</a>.
+      Guest posts are reviewed before publication, and we reserve the right to edit for clarity,
+      formatting and safety. Links within guest posts do not constitute endorsements.
+    </p>
+
+    <h2>Corrections and updates</h2>
+    <p>
+      If you spot an error, please <a href="/contact-us/">contact us</a>. We review reported issues
+      and update or correct articles as needed. Updated articles show a “last updated” date.
+    </p>
+
+    <h2>Advertising and affiliate content</h2>
+    <p>
+      Where content is sponsored or contains affiliate links, we aim to keep editorial judgement
+      independent of commercial relationships.
+    </p>
+  </div>
+</BaseLayout>

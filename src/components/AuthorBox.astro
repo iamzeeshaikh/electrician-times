@@ -1,0 +1,21 @@
+---
+import authors from '../data/authors.json';
+
+export interface Props {
+  author: string;
+}
+const { author } = Astro.props;
+const info = (authors as Record<string, { slug: string; name: string; role: string; bio: string }>)[
+  author.toLowerCase()
+];
+---
+
+{info && (
+  <aside class="author-box">
+    <div class="author-avatar" aria-hidden="true">{info.name[0]}</div>
+    <div>
+      <strong><a href={`/author/${info.slug}/`}>{info.name}</a></strong> · {info.role}
+      <p>{info.bio}</p>
+    </div>
+  </aside>
+)}

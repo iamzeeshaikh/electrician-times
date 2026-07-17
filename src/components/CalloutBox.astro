@@ -1,0 +1,12 @@
+---
+export interface Props {
+  type?: 'warning' | 'info';
+  title?: string;
+}
+const { type = 'warning', title } = Astro.props;
+---
+
+<div class={`callout ${type === 'info' ? 'info' : ''}`} role="note">
+  {title && <p><strong>{title}</strong></p>}
+  <slot />
+</div>

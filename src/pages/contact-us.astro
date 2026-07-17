@@ -1,0 +1,68 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CalloutBox from '../components/CalloutBox.astro';
+
+// Migrated WordPress intro text for this page
+const pages = await getCollection('pages');
+const entry = pages.find((p) => p.data.slug === 'contact-us');
+const intro = entry?.body ?? '';
+
+// Form handling is configurable via env vars so the build works with no credentials:
+// PUBLIC_FORM_ENDPOINT — a form backend URL (e.g. Formspree/FormSubmit/Basin endpoint)
+// PUBLIC_TURNSTILE_SITE_KEY — optional Cloudflare Turnstile site key
+const FORM_ENDPOINT = import.meta.env.PUBLIC_FORM_ENDPOINT || '';
+const TURNSTILE_KEY = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '';
+---
+
+<BaseLayout
+  title={entry?.data.seoTitle || 'Contact Us'}
+  rawTitle={Boolean(entry?.data.seoTitle)}
+  description={entry?.data.description || 'Get in touch with the Electrician Times team with questions, suggestions or submissions.'}
+  canonical="/contact-us/"
+>
+  <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Contact Us' }]} />
+  <div class="container page-body">
+    <h1>Contact Us</h1>
+    <Fragment set:html={intro} />
+
+    {FORM_ENDPOINT ? (
+      <form class="form-grid" method="POST" action={FORM_ENDPOINT} style="margin-top:1.5rem">
+        <div>
+          <label for="cf-name">Name</label>
+          <input id="cf-name" name="name" type="text" required autocomplete="name" />
+        </div>
+        <div>
+          <label for="cf-email">Email</label>
+          <input id="cf-email" name="email" type="email" required autocomplete="email" />
+        </div>
+        <div>
+          <label for="cf-subject">Subject</label>
+          <input id="cf-subject" name="subject" type="text" required />
+        </div>
+        <div>
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="6" required></textarea>
+        </div>
+        {TURNSTILE_KEY && (
+          <>
+            <div class="cf-turnstile" data-sitekey={TURNSTILE_KEY}></div>
+            <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+          </>
+        )}
+        <div>
+          <button class="button" type="submit">Send Message</button>
+        </div>
+      </form>
+    ) : (
+      <CalloutBox type="info" title="Contact form not yet configured">
+        <p>
+          Set the <code>PUBLIC_FORM_ENDPOINT</code> environment variable to enable this form (see
+          README “Contact form setup”). In the meantime, please reach out via the details on our
+          <a href="/write-for-us/">Write for Us</a> page.
+        </p>
+      </CalloutBox>
+    )}
+  </div>
+</BaseLayout>

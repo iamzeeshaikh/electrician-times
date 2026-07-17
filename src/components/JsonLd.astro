@@ -1,0 +1,9 @@
+---
+export interface Props {
+  data: Record<string, unknown> | Record<string, unknown>[];
+}
+const { data } = Astro.props;
+const payload = Array.isArray(data) && data.length === 1 ? data[0] : data;
+---
+
+<script type="application/ld+json" is:inline set:html={JSON.stringify(payload)} />

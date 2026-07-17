@@ -1,0 +1,31 @@
+---
+import JsonLd from './JsonLd.astro';
+import { absoluteUrl } from '../utils/site';
+
+export interface Props {
+  items: { name: string; href?: string }[];
+}
+const { items } = Astro.props;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: item.name,
+    ...(item.href ? { item: absoluteUrl(item.href) } : {}),
+  })),
+};
+---
+
+<nav class="breadcrumbs container" aria-label="Breadcrumb">
+  <ol>
+    {items.map((item, i) => (
+      <li>
+        {item.href && i < items.length - 1 ? <a href={item.href}>{item.name}</a> : <span aria-current="page">{item.name}</span>}
+      </li>
+    ))}
+  </ol>
+</nav>
+<JsonLd data={schema} />
