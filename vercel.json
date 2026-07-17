@@ -19,7 +19,17 @@
       "permanent": true
     },
     {
+      "source": "/home-2/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/home-3",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home-3/",
       "destination": "/",
       "permanent": true
     },
@@ -29,7 +39,17 @@
       "permanent": true
     },
     {
+      "source": "/soledad_home/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/feed",
+      "destination": "/rss.xml",
+      "permanent": true
+    },
+    {
+      "source": "/feed/",
       "destination": "/rss.xml",
       "permanent": true
     },
@@ -54,7 +74,17 @@
       "permanent": true
     },
     {
+      "source": "/comments/feed/",
+      "destination": "/rss.xml",
+      "permanent": true
+    },
+    {
       "source": "/:slug/feed",
+      "destination": "/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/:slug/feed/",
       "destination": "/:slug/",
       "permanent": true
     },
@@ -89,7 +119,17 @@
       "permanent": true
     },
     {
+      "source": "/author/admin/",
+      "destination": "/author/steven/",
+      "permanent": true
+    },
+    {
       "source": "/wp-admin",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/wp-admin/",
       "destination": "/",
       "permanent": false
     },
@@ -105,6 +145,11 @@
     },
     {
       "source": "/electrician-newcastle-your-trusted-electrical-experts-2",
+      "destination": "/electrician-newcastle-your-trusted-electrical-expert/",
+      "permanent": true
+    },
+    {
+      "source": "/electrician-newcastle-your-trusted-electrical-experts-2/",
       "destination": "/electrician-newcastle-your-trusted-electrical-expert/",
       "permanent": true
     }
