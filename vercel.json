@@ -206,6 +206,34 @@
   ],
   "rewrites": [
     {
+      "source": "/:n(\\d+)",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/:n(\\d+)/",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/(.*)\\.phtml",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/(.*)\\.php",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/(.*)\\.html",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/(.*)\\.htm",
+      "destination": "/api/gone"
+    },
+    {
+      "source": "/info/(.*)",
+      "destination": "/api/gone"
+    },
+    {
       "source": "/10-interesting-facts-about-mary-joan-martelly-you-didnt-know/",
       "destination": "/api/gone"
     },
