@@ -8,7 +8,7 @@ their original URLs.
 
 - **Astro 7** (static output) + TypeScript + Content Collections
 - **Pagefind** static search (index built after each `astro build`)
-- **@astrojs/sitemap** → `/sitemap.xml`
+- Custom flat XML sitemap endpoint → `/sitemap.xml` (all URLs in one file)
 - Zero client-side framework; the only JS is the mobile-nav toggle and the search page
 - Deployed on **Vercel** (`vercel.json` handles trailing slashes, redirects, caching, headers)
 
