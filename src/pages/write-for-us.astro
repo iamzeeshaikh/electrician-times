@@ -13,56 +13,55 @@ const WHATSAPP = '+44 7365 733099';
 const WHATSAPP_LINK = 'https://wa.me/447365733099';
 
 const mailtoGuest = `mailto:${EMAIL}?subject=${encodeURIComponent('Guest Post Pitch — Electrician Times')}&body=${encodeURIComponent('Hi Electrician Times team,\n\nProposed topic/title:\nBrief outline (3–5 bullets):\nAuthor / company:\nSample of previous work (links):\n\nThanks!')}`;
-const mailtoSponsored = `mailto:${EMAIL}?subject=${encodeURIComponent('Sponsored Post / Rates Inquiry — Electrician Times')}&body=${encodeURIComponent('Hi Electrician Times team,\n\nWe are interested in a sponsored placement.\n\nCompany / website:\nWhat you want to promote:\nPreferred timeline:\n\nPlease send your current rates.\n\nThanks!')}`;
 
 const faq = [
   {
-    question: 'How much does a sponsored post on Electrician Times cost?',
-    answer:
-      'Rates depend on placement type (new sponsored article, or a link within an existing relevant article), length and turnaround. Email admin@electriciantimes.com with your requirements and we will send the current rate card — serious inquiries receive a same-day response.',
-  },
-  {
-    question: 'Do free guest posts get accepted?',
-    answer:
-      'Occasionally — for genuinely exceptional, non-promotional articles from industry practitioners. Anything that promotes a business, product or service is a paid placement.',
-  },
-  {
     question: 'How long does publication take?',
     answer:
-      'Once content passes editorial review and payment is confirmed, publication is typically within 1–3 business days. Expedited same-day publication can be arranged.',
+      'Once an article passes editorial review, publication is typically within 1–3 business days. If you have a deadline, mention it in your email and we will do our best to accommodate it.',
   },
   {
     question: 'Will my article stay online permanently?',
     answer:
-      'Yes — accepted placements remain live for the lifetime of the site and are included in our sitemap, RSS feed and internal search. We do not delete paid placements as long as they continue to meet our content standards.',
+      'Yes — published articles remain live for the lifetime of the site and are included in our sitemap, RSS feed and internal search, as long as they continue to meet our content standards.',
+  },
+  {
+    question: 'Can businesses and agencies contribute?',
+    answer:
+      'Yes. Many of our contributors write on behalf of companies serving the electrical trade. Email admin@electriciantimes.com with what you have in mind and we will reply with the details — serious inquiries receive a same-day response.',
   },
   {
     question: 'What topics are off-limits?',
     answer:
       'Anything unrelated to the electrical trade or clearly adjacent industries — plus casino, adult, crypto speculation, pharmaceuticals and thin AI-generated filler. We recently removed nearly 100 off-topic posts to keep this site strictly electrical, and we protect that standard.',
   },
+  {
+    question: 'Do you edit submissions?',
+    answer:
+      'We may edit for clarity, formatting and safety. Significant changes are agreed with you before publication.',
+  },
 ];
 ---
 
 <BaseLayout
-  title="Write for Us - Guest Posts & Sponsored Content - Electrician Times"
+  title="Write for Us - Electrician Times"
   rawTitle={true}
-  description="Contribute to Electrician Times — a 100% electrical-niche publication. Guest post guidelines, sponsored content options and rates for businesses in the electrical trade."
+  description="Contribute to Electrician Times — a 100% electrical-niche publication read by electricians, contractors and homeowners. See our guest post guidelines and pitch your article."
   canonical="/write-for-us/"
 >
   <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Write for Us' }]} />
 
   <div class="hero" style="padding:2.5rem 0">
     <div class="container">
-      <span class="kicker">Guest Posts · Sponsored Content · Link Placements</span>
+      <span class="kicker">Guest Posts · Contributor Guidelines</span>
       <h1 style="color:#fff;margin:0 0 .6rem">Write for Electrician Times</h1>
       <p style="color:#c3d4e2;max-width:44rem;margin:0 0 1.4rem">
-        Put your brand or expertise in front of electricians, contractors, technicians and
-        hands-on homeowners — on a publication that covers the electrical trade and nothing else.
+        Share your expertise with electricians, contractors, technicians and hands-on
+        homeowners — on a publication that covers the electrical trade and nothing else.
       </p>
       <div class="hero-actions">
-        <a class="button" href={mailtoSponsored}>Request Rates</a>
-        <a class="button ghost" href={mailtoGuest}>Pitch an Article</a>
+        <a class="button" href={mailtoGuest}>Pitch an Article</a>
+        <a class="button ghost" href={`mailto:${EMAIL}`}>Email the Editor</a>
       </div>
       <div class="hero-stats">
         <div class="stat"><b>{totalPosts}+</b><span>Live articles</span></div>
@@ -73,13 +72,13 @@ const faq = [
   </div>
 
   <div class="container page-body">
-    <h2>Why publishers choose Electrician Times</h2>
+    <h2>Why write for Electrician Times</h2>
     <ul>
-      <li><strong>A strictly electrical audience.</strong> Every category on this site — wiring, cables, protective devices, lighting, meters, tools, electrician business — serves one niche. Your content sits next to relevant articles, not random filler.</li>
-      <li><strong>Ruthless editorial standards.</strong> We recently audited the entire site and removed ~100 off-topic posts. What remains (and what we publish) is electrical content only — which protects the value of every placement on the site.</li>
-      <li><strong>Clean, fast, modern platform.</strong> The site is fully static, mobile-first and technically optimized: structured data on every article, XML sitemap, RSS, and internal links from related articles.</li>
-      <li><strong>Permanent placement.</strong> Published articles stay live, indexed and internally linked for the life of the site.</li>
-      <li><strong>Fast, human process.</strong> One email, a real editor, same-day answers on serious inquiries, publication typically within 1–3 business days of approval.</li>
+      <li><strong>A strictly electrical audience.</strong> Every category on this site — wiring, cables, protective devices, lighting, meters, tools, electrician business — serves one niche. Your article sits next to relevant content, not random filler.</li>
+      <li><strong>Real editorial standards.</strong> We recently audited the entire site and removed ~100 off-topic posts. What remains (and what we publish) is electrical content only — which makes every byline here worth more.</li>
+      <li><strong>Clean, fast, modern platform.</strong> Fully static, mobile-first and technically optimized: structured data on every article, XML sitemap, RSS, and internal links from related articles.</li>
+      <li><strong>Permanent publication.</strong> Accepted articles stay live, indexed and internally linked for the life of the site.</li>
+      <li><strong>Fast, human process.</strong> One email, a real editor, same-day answers on serious pitches, publication typically within 1–3 business days of approval.</li>
     </ul>
 
     <h2>What we publish</h2>
@@ -87,7 +86,7 @@ const faq = [
       <li>Practical guides: wiring, installations, troubleshooting, tools, safety</li>
       <li>Industry insight: standards, technology trends, smart homes, solar, EV charging</li>
       <li>Business content for electricians: marketing, operations, careers, licensing</li>
-      <li>Product and brand stories from companies serving the electrical trade</li>
+      <li>Stories and know-how from companies serving the electrical trade</li>
       <li>Adjacent trades where the angle is genuinely electrical (HVAC, construction, security systems)</li>
     </ul>
 
@@ -97,33 +96,24 @@ const faq = [
       <li><strong>Substantial</strong> — 800+ words preferred; long-form welcome</li>
       <li><strong>Safe</strong> — no advice that encourages untrained readers to do hazardous electrical work; jurisdiction-specific claims must be accurate</li>
       <li><strong>Readable</strong> — clear headings, short paragraphs, proofread</li>
-      <li>We may edit for clarity, formatting and safety, and we mark sponsored content in line with our <a href="/editorial-policy/">editorial policy</a></li>
     </ul>
 
-    <h2>Sponsored placements</h2>
-    <p>
-      Promotional articles and link placements are <strong>paid</strong>. Options include a new
-      sponsored article written by you (or by us), or a contextual mention within an existing
-      relevant article. Tell us what you want to achieve and we'll recommend the right format —
-      pricing is straightforward and turnaround is fast.
-    </p>
-
     <div class="callout info">
-      <p><strong>Ready to start?</strong> Email
+      <p><strong>Ready to pitch?</strong> Email
         <a href={`mailto:${EMAIL}`}>{EMAIL}</a> or WhatsApp
-        <a href={WHATSAPP_LINK} rel="noopener noreferrer">{WHATSAPP}</a> with your topic or
-        promotional goals. Serious inquiries get a same-day reply with current rates.
+        <a href={WHATSAPP_LINK} rel="noopener noreferrer">{WHATSAPP}</a> with your topic or a
+        short outline. Serious pitches get a same-day reply.
       </p>
       <p style="margin-top:0.8rem">
-        <a class="button" href={mailtoSponsored}>Get the Rate Card&nbsp;→</a>
+        <a class="button" href={mailtoGuest}>Pitch an Article&nbsp;→</a>
       </p>
     </div>
 
     <h2>How it works</h2>
     <ol>
-      <li><strong>Pitch.</strong> Email your topic/outline, or your promotional goals for sponsored work.</li>
-      <li><strong>Review & quote.</strong> We confirm fit, send rates and agree the details.</li>
-      <li><strong>Publish.</strong> After approval, your article goes live — indexed, internally linked and permanent.</li>
+      <li><strong>Pitch.</strong> Email your topic and a brief outline (or the finished draft).</li>
+      <li><strong>Review.</strong> We confirm fit, agree the details and give you a publication date.</li>
+      <li><strong>Publish.</strong> Your article goes live — indexed, internally linked and permanent.</li>
     </ol>
 
     <FaqSection faq={faq} title="Guest posting FAQ" />

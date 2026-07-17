@@ -1,12 +1,12 @@
 # Final validation report
 
-Generated: 2026-07-17T11:11:22.103Z
+Generated: 2026-07-17T11:17:36.350Z
 Pages checked: 152
 
-## Result: ✅ PASS (no errors) — 80 warnings
+## Result: ✅ PASS (no errors) — 79 warnings
 
 ## Issue counts by check
-- long-title: 76
+- long-title: 75
 - http-link: 4
 
 ## Errors
@@ -92,4 +92,3 @@ _none_
 - `/why-omnicable-is-the-preferred-choice-for-reliable-connectivity/` long-title: 83 chars: Why Omnicable is the Preferred Choice for Reliable Connectivity - Elec
 - `/why-your-oven-isnt-heating-properly-what-to-do/` long-title: 78 chars: Why Your Oven Isn&#39;t Heating Properly &amp; What to Do  - Electrici
 - `/wiring-installation-in-a-wooden-house-3-popular-schemes/` long-title: 76 chars: Wiring installation in a wooden house: 3 popular schemes - Electrician
-- `/write-for-us/` long-title: 70 chars: Write for Us - Guest Posts &amp; Sponsored Content - Electrician Times
