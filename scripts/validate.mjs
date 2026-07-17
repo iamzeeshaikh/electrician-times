@@ -39,14 +39,13 @@ const get = (html, re) => html.match(re)?.[1]?.trim() ?? '';
 // route set for internal link checking
 const routes = new Set(pages.map((p) => p.route));
 routes.add('/rss.xml');
-routes.add('/sitemap-index.xml');
-routes.add('/sitemap-0.xml');
+routes.add('/sitemap.xml');
 routes.add('/sitemap/');
 
 const redirectSources = new Set([
   '/home-2/', '/home-3/', '/soledad_home/', '/feed/', '/comments/feed/',
-  '/wp-sitemap.xml', '/sitemap.xml', '/sitemap_index.xml', '/post-sitemap.xml',
-  '/page-sitemap.xml', '/category-sitemap.xml', '/author/admin/',
+  '/wp-sitemap.xml', '/sitemap-index.xml', '/sitemap-0.xml', '/sitemap_index.xml',
+  '/post-sitemap.xml', '/page-sitemap.xml', '/category-sitemap.xml', '/author/admin/',
 ]);
 
 const titles = new Map();
@@ -55,7 +54,7 @@ const inventory = [];
 const seoRows = [];
 const brokenLinks = [];
 
-const sitemapXml = readFileSync(join(DIST, 'sitemap-0.xml'), 'utf8');
+const sitemapXml = readFileSync(join(DIST, 'sitemap.xml'), 'utf8');
 const sitemapUrls = new Set([...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].replace(SITE, '') || '/'));
 
 for (const p of pages) {
@@ -157,7 +156,7 @@ for (const p of pages) {
 
 // sitemap URLs that don't exist as pages
 for (const u of sitemapUrls) {
-  if (!routes.has(u)) add('error', 'sitemap-0.xml', 'sitemap-url-missing-page', u);
+  if (!routes.has(u)) add('error', 'sitemap.xml', 'sitemap-url-missing-page', u);
 }
 
 // ---- outputs ----

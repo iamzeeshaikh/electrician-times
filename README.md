@@ -8,7 +8,7 @@ their original URLs.
 
 - **Astro 7** (static output) + TypeScript + Content Collections
 - **Pagefind** static search (index built after each `astro build`)
-- **@astrojs/sitemap** → `/sitemap-index.xml`
+- **@astrojs/sitemap** → `/sitemap.xml`
 - Zero client-side framework; the only JS is the mobile-nav toggle and the search page
 - Deployed on **Vercel** (`vercel.json` handles trailing slashes, redirects, caching, headers)
 
@@ -117,7 +117,7 @@ author there + using their name in posts creates `/author/<slug>/`.
 
 ## Sitemaps, robots, RSS
 
-- XML sitemap: `/sitemap-index.xml` (referenced in `public/robots.txt`)
+- XML sitemap: `/sitemap.xml` (referenced in `public/robots.txt`)
 - HTML sitemap for users: `/sitemap/`
 - RSS: `/rss.xml` (old `/feed/` URLs 301 to it)
 

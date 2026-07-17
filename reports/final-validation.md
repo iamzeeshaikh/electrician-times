@@ -1,6 +1,6 @@
 # Final validation report
 
-Generated: 2026-07-17T10:18:33.400Z
+Generated: 2026-07-17T10:43:18.092Z
 Pages checked: 265
 
 ## Result: ✅ PASS (no errors) — 102 warnings

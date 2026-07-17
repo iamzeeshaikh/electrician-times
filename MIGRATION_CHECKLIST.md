@@ -15,7 +15,7 @@
       flagged with `descriptionGenerated` (`reports/seo-metadata.csv`)
 - [x] Schema checked — JSON-LD parses on every page (validator); BlogPosting/BreadcrumbList/
       CollectionPage/WebSite/Organization/FAQPage only where content supports it
-- [x] Sitemap checked — `/sitemap-index.xml` contains all indexable pages, zero noindex URLs
+- [x] Sitemap checked — `/sitemap.xml` contains all indexable pages, zero noindex URLs
 - [x] Robots checked — `public/robots.txt` allows all content, blocks only `/search/`,
       references the sitemap
 - [x] Forms checked — contact form builds and degrades gracefully without credentials

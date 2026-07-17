@@ -17,7 +17,6 @@
     "reports": "node scripts/linking.mjs"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.3",
     "astro": "^7.1.0",
     "fast-xml-parser": "^5.10.1",
     "image-size": "^2.0.2",

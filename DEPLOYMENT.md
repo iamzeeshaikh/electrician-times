@@ -30,7 +30,7 @@ them.**
    - `PUBLIC_FORM_ENDPOINT` — contact-form backend URL
    - `PUBLIC_TURNSTILE_SITE_KEY` — Turnstile site key
 7. Deploy. Verify the `*.vercel.app` preview: homepage, a few post URLs, `/search/`,
-   `/sitemap-index.xml`, `/rss.xml`, `/robots.txt`.
+   `/sitemap.xml`, `/rss.xml`, `/robots.txt`.
 
 ## 3. Domain connection
 
@@ -78,7 +78,7 @@ curl -sI https://electriciantimes.com/home-2/ | grep -iE "http|location"
 curl -sI https://electriciantimes.com/about-us | grep -iE "http|location"
 # Sitemap + robots
 curl -s https://electriciantimes.com/robots.txt
-curl -sI https://electriciantimes.com/sitemap-index.xml | head -1
+curl -sI https://electriciantimes.com/sitemap.xml | head -1
 # 404 handling — expect 404
 curl -sI https://electriciantimes.com/this-page-does-not-exist/ | head -1
 ```
@@ -88,7 +88,7 @@ Also test **email**: send a message to and from a mailbox on the domain after DN
 ## 6. Search Console
 
 1. Google Search Console → the existing `electriciantimes.com` property.
-2. Sitemaps → remove old Yoast sitemap if listed → submit `https://electriciantimes.com/sitemap-index.xml`.
+2. Sitemaps → remove old Yoast sitemap if listed → submit `https://electriciantimes.com/sitemap.xml`.
    (The old Yoast sitemap URLs 301 to the new index anyway.)
 3. Over the following weeks watch Coverage for unexpected 404s; every legitimate URL from the
    WordPress era should be 200 or a deliberate 301 (see `reports/redirect-review.md`).

@@ -17,7 +17,7 @@ See `reports/redirect-map.csv`. Summary:
 | Host canonicalization (www → apex) | 1 | HTTPS redirect is automatic on Vercel |
 | Theme demo homepages → `/` | 3 | `home-2`, `home-3`, `soledad_home` were Soledad demo pages set as front page content |
 | Feeds → `/rss.xml` | 4 | includes per-post `/slug/feed/` variants |
-| Legacy sitemaps → `/sitemap-index.xml` | 6 | Yoast + WP-core sitemap paths |
+| Legacy sitemaps → `/sitemap.xml` | 6 | Yoast + WP-core sitemap paths |
 | Author variants | 1 | `/author/admin/` → `/author/steven/` |
 | WP admin/login | 3 | 302 (not permanent — intentional, so they can be repurposed) |
 
@@ -40,5 +40,5 @@ See `reports/redirect-map.csv`. Summary:
 - `curl -I http://electriciantimes.com/security-zones-of-power-lines-and-rules-for-staying-in-them` → 301 → https + trailing slash, single hop each
 - `curl -I https://www.electriciantimes.com/about-us/` → 301 → apex
 - `curl -I https://electriciantimes.com/feed/` → 301 → /rss.xml
-- `curl -I https://electriciantimes.com/sitemap_index.xml` → 301 → /sitemap-index.xml
+- `curl -I https://electriciantimes.com/sitemap_index.xml` → 301 → /sitemap.xml
 - Spot-check 10 post URLs from Search Console → all 200
