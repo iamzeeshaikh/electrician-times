@@ -19,7 +19,7 @@
     "slug": "electrical",
     "name": "Electrical",
     "description": "",
-    "postCount": 40,
+    "postCount": 38,
     "yoastTitle": null,
     "yoastDescription": null
   },
@@ -27,7 +27,7 @@
     "slug": "lighting",
     "name": "Lighting",
     "description": "",
-    "postCount": 7,
+    "postCount": 8,
     "yoastTitle": null,
     "yoastDescription": null
   },
@@ -35,7 +35,7 @@
     "slug": "wiring",
     "name": "Wiring",
     "description": "",
-    "postCount": 4,
+    "postCount": 6,
     "yoastTitle": null,
     "yoastDescription": null
   },
@@ -59,7 +59,7 @@
     "slug": "wire",
     "name": "Wire",
     "description": "",
-    "postCount": 3,
+    "postCount": 5,
     "yoastTitle": null,
     "yoastDescription": null
   },
@@ -75,7 +75,7 @@
     "slug": "installing",
     "name": "Installing",
     "description": "",
-    "postCount": 7,
+    "postCount": 6,
     "yoastTitle": null,
     "yoastDescription": null
   },
@@ -83,7 +83,7 @@
     "slug": "led",
     "name": "LED",
     "description": "",
-    "postCount": 3,
+    "postCount": 4,
     "yoastTitle": null,
     "yoastDescription": null
   },
@@ -91,21 +91,13 @@
     "slug": "device",
     "name": "Device",
     "description": "",
-    "postCount": 10,
+    "postCount": 8,
     "yoastTitle": null,
     "yoastDescription": null
   },
   {
     "slug": "meters",
     "name": "Meters",
-    "description": "",
-    "postCount": 2,
-    "yoastTitle": null,
-    "yoastDescription": null
-  },
-  {
-    "slug": "ai",
-    "name": "AI",
     "description": "",
     "postCount": 3,
     "yoastTitle": null,
@@ -123,7 +115,7 @@
     "slug": "electricial-safety",
     "name": "Electrical Safety",
     "description": "",
-    "postCount": 5,
+    "postCount": 7,
     "yoastTitle": null,
     "yoastDescription": null
   },
@@ -131,7 +123,7 @@
     "slug": "blog",
     "name": "Blog",
     "description": "",
-    "postCount": 94,
+    "postCount": 15,
     "yoastTitle": null,
     "yoastDescription": null
   },
@@ -139,7 +131,7 @@
     "slug": "business",
     "name": "Business",
     "description": "",
-    "postCount": 6,
+    "postCount": 3,
     "yoastTitle": null,
     "yoastDescription": null
   }

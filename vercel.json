@@ -102,6 +102,11 @@
       "source": "/wp-login.php",
       "destination": "/",
       "permanent": false
+    },
+    {
+      "source": "/electrician-newcastle-your-trusted-electrical-experts-2",
+      "destination": "/electrician-newcastle-your-trusted-electrical-expert/",
+      "permanent": true
     }
   ],
   "headers": [
