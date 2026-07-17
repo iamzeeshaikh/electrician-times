@@ -27,6 +27,7 @@ export const GET: APIRoute = async () => {
     if (pg.data.noindex) continue;
     urls.push({ loc: `${SITE_URL}/${pg.data.slug}/`, lastmod: pg.data.modifiedDate ?? pg.data.publishDate });
   }
+  urls.push({ loc: `${SITE_URL}/write-for-us/` });
   urls.push({ loc: `${SITE_URL}/editorial-policy/` });
   urls.push({ loc: `${SITE_URL}/disclaimer/` });
   urls.push({ loc: `${SITE_URL}/sitemap/` });
