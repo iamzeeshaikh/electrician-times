@@ -14,7 +14,7 @@ const cat = post.data.primaryCategory || post.data.categories[0];
 
 <article class="article-card">
   {post.data.featuredImage && (
-    <a href={postUrl(post)} tabindex="-1" aria-hidden="true">
+    <a href={postUrl(post)} class="card-media" tabindex="-1" aria-hidden="true">
       <img
         src={post.data.featuredImage}
         alt=""
@@ -23,10 +23,13 @@ const cat = post.data.primaryCategory || post.data.categories[0];
         loading={eager ? 'eager' : 'lazy'}
         decoding="async"
       />
+      {cat && <span class="cat-badge">{categoryName(cat)}</span>}
     </a>
   )}
   <div class="card-body">
-    {cat && <a class="cat-pill" href={`/category/${cat}/`}>{categoryName(cat)}</a>}
+    {!post.data.featuredImage && cat && (
+      <a class="cat-pill" href={`/category/${cat}/`}>{categoryName(cat)}</a>
+    )}
     <h3><a href={postUrl(post)}>{post.data.title}</a></h3>
     <p class="card-meta">
       <time datetime={post.data.publishDate.toISOString()}>{formatDate(post.data.publishDate)}</time>

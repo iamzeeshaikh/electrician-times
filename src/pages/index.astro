@@ -7,7 +7,11 @@ import { getPublishedPosts, categories, categoryDescription } from '../utils/con
 import { SITE_NAME, SITE_URL, SITE_TAGLINE, SITE_DESCRIPTION, SITE_LOGO, absoluteUrl } from '../utils/site';
 
 const posts = await getPublishedPosts();
-const latest = posts.slice(0, 9);
+const featured = posts.find((p) => p.data.featuredImage) ?? posts[0];
+const latest = posts.filter((p) => p !== featured).slice(0, 9);
+const featuredCat = featured.data.primaryCategory || featured.data.categories[0];
+const totalPosts = posts.length;
+const totalCategories = categories.filter((c) => c.postCount > 0).length;
 
 const FEATURED_SECTIONS = [
   { slug: 'electrical', title: 'Electrical Fundamentals' },
@@ -56,12 +60,39 @@ const schema = [
   canonical="/"
 >
   <div class="hero">
-    <div class="container">
-      <h1>{SITE_NAME}</h1>
-      <p>
-        Practical guides on electrical installations, wiring, cables, tools and safety — written
-        for electricians, technicians, students and homeowners.
-      </p>
+    <div class="container hero-inner">
+      <div>
+        <span class="kicker">The Electrical Trade, Explained</span>
+        <h1>Practical Guides for Electricians &amp; Homeowners</h1>
+        <p>
+          Wiring, cables, sockets, protective devices, tools and safety — clear, technical
+          articles written for electricians, technicians, students and hands-on homeowners.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="/category/electricial-safety/">Electrical Safety Guides</a>
+          <a class="button ghost" href="/sitemap/">Browse All Articles</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><b>{totalPosts}+</b><span>In-depth articles</span></div>
+          <div class="stat"><b>{totalCategories}</b><span>Topic categories</span></div>
+          <div class="stat"><b>Safety-first</b><span>Editorial policy</span></div>
+        </div>
+      </div>
+      <a class="hero-card" href={`/${featured.data.slug}/`}>
+        <span class="hero-card-label">Latest</span>
+        <img
+          src={featured.data.featuredImage}
+          alt=""
+          width={featured.data.featuredImageWidth || 740}
+          height={featured.data.featuredImageHeight || 462}
+          fetchpriority="high"
+          decoding="async"
+        />
+        <span class="hero-card-body">
+          {featuredCat && <span class="cat-pill">{categories.find((c) => c.slug === featuredCat)?.name ?? featuredCat}</span>}
+          <h2>{featured.data.title}</h2>
+        </span>
+      </a>
     </div>
   </div>
 
