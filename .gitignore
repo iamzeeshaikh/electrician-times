@@ -15,11 +15,12 @@ node_modules/
 /data/
 
 # original WordPress backups — keep locally, do not push to GitHub
+# (root-anchored: public/wp-content/uploads/ MUST be committed)
 *.sql
 *.xml
 !public/**/*.xml
-uploads/
-Logo.webp
+/uploads/
+/Logo.webp
 
 # macOS
 .DS_Store
