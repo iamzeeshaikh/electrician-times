@@ -31,3 +31,8 @@ node_modules/
 
 # vercel
 .vercel/
+
+# macOS AppleDouble sidecars (exFAT drive)
+._*
+**/._*
+.DS_Store
