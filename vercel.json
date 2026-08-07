@@ -3,7 +3,7 @@
   "trailingSlash": true,
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "destination": "/api/gone"
     }
   ],
