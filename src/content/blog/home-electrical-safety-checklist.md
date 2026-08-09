@@ -1,7 +1,7 @@
 ---
 title: "Home Electrical Safety Checklist: 12 Warning Signs to Take Seriously"
 slug: "home-electrical-safety-checklist"
-description: "Most electrical fires announce themselves first. A 12-point home electrical safety checklist — the warning signs, what each one means and which ones require an electrician today."
+description: "Most electrical fires announce themselves first. A 12-point home safety checklist: the warning signs, what each means, and which need an electrician today."
 seoTitle: "Home Electrical Safety Checklist: 12 Warning Signs - Electrician Times"
 seoDescription: "Most electrical fires announce themselves first. A 12-point safety checklist — the warning signs, what each means and which ones need an electrician today."
 focusKeyword: "home electrical safety checklist"

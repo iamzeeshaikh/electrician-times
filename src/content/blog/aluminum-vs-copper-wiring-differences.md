@@ -1,7 +1,7 @@
 ---
 title: "Aluminum vs Copper Wiring: Differences, Risks and Where Each Is Used"
 slug: "aluminum-vs-copper-wiring-differences"
-description: "Copper and aluminum conduct electricity differently and age differently. How the two conductors compare, why old aluminum branch wiring has a bad reputation, and where aluminum still makes sense."
+description: "Copper and aluminum conduct and age differently. How they compare, why old aluminum branch wiring earned its reputation, and where aluminum still makes sense."
 seoTitle: "Aluminum vs Copper Wiring: Key Differences - Electrician Times"
 seoDescription: "How copper and aluminum conductors compare in conductivity, weight, cost and ageing — why old aluminum branch wiring is risky and where aluminum still shines."
 focusKeyword: "aluminum vs copper wiring"

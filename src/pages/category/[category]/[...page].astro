@@ -43,6 +43,9 @@ const description =
   cat.yoastDescription || `${categoryDescription(cat.slug)}${pageNum > 1 ? ` Page ${pageNum} of ${lastPage}.` : ''}`;
 const basePath = `/category/${cat.slug}`;
 const canonical = pageNum === 1 ? `${basePath}/` : `${basePath}/page/${pageNum}/`;
+// Page 1 carries the category's own copy and stays indexable; pages 2+ are just
+// more of the same list, so they stay crawlable but out of the index.
+const noindex = pageNum > 1;
 
 const schema = {
   '@context': 'https://schema.org',
@@ -54,7 +57,7 @@ const schema = {
 };
 ---
 
-<BaseLayout title={title} rawTitle={true} description={description} canonical={canonical}>
+<BaseLayout title={title} rawTitle={true} description={description} canonical={canonical} noindex={noindex}>
   <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: cat.name }]} />
   <div class="container">
     <header class="article-header">

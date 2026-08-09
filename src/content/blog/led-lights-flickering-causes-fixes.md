@@ -1,7 +1,7 @@
 ---
 title: "Why LED Lights Flicker: Causes and How to Fix Them"
 slug: "led-lights-flickering-causes-fixes"
-description: "Flickering LEDs are usually a compatibility problem, not a faulty lamp. The real causes — dimmer mismatch, cheap drivers, loose connections and voltage dips — and how to fix each one."
+description: "Flickering LEDs are usually a compatibility problem, not a faulty lamp. The real causes — dimmer mismatch, cheap drivers, loose connections — and the fixes."
 seoTitle: "Why LED Lights Flicker & How to Fix It - Electrician Times"
 seoDescription: "Flickering LEDs are usually a compatibility problem, not a faulty bulb. The real causes — dimmer mismatch, cheap drivers, loose connections — and the fixes."
 focusKeyword: "led lights flickering"

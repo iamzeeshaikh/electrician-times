@@ -31,6 +31,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 const { info, pageNum, lastPage, posts, total } = Astro.props;
+// The site has a single author, so this archive lists the same posts as the
+// homepage index in the same order. Kept crawlable for the ProfilePage/E-E-A-T
+// signal, but out of the index and out of the sitemap.
 const basePath = `/author/${info.slug}`;
 const canonical = pageNum === 1 ? `${basePath}/` : `${basePath}/page/${pageNum}/`;
 const title = `${info.name}, Author at ${SITE_NAME}${pageNum > 1 ? ` - Page ${pageNum}` : ''}`;
@@ -48,7 +51,7 @@ const schema = {
 };
 ---
 
-<BaseLayout title={title} rawTitle={true} description={description} canonical={canonical}>
+<BaseLayout title={title} rawTitle={true} description={description} canonical={canonical} noindex={true}>
   <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: `Author: ${info.name}` }]} />
   <div class="container">
     <header class="article-header">

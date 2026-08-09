@@ -2,8 +2,5 @@ User-agent: *
 Disallow: /search/
 Allow: /
 
-User-agent: ClaudeBot
-Disallow: /
-
 Sitemap: https://electriciantimes.com/sitemap.xml
 Sitemap: https://electriciantimes.com/sitemap-removed.xml

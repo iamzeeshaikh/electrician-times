@@ -1,7 +1,7 @@
 ---
 title: "How to Read Your Electricity Meter: Dials, Digital and Smart Meters"
 slug: "how-to-read-your-electricity-meter"
-description: "Reading your own electricity meter takes a minute and catches billing errors. How to read dial meters, digital displays and smart meters — and what a kWh actually measures."
+description: "Reading your meter takes a minute and catches billing errors. How to read dial, digital and smart meters — and what a kWh actually measures."
 seoTitle: "How to Read Your Electricity Meter - Electrician Times"
 seoDescription: "Reading your electricity meter takes a minute and catches billing errors. How to read dial meters, digital displays and smart meters, step by step."
 focusKeyword: "how to read electricity meter"

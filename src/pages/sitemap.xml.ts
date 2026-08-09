@@ -2,9 +2,6 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { getPublishedPosts, categories } from '../utils/content';
 import { SITE_URL } from '../utils/site';
-import authors from '../data/authors.json';
-
-const PER_PAGE = 12;
 
 export const GET: APIRoute = async () => {
   const posts = await getPublishedPosts();
@@ -32,28 +29,17 @@ export const GET: APIRoute = async () => {
   urls.push({ loc: `${SITE_URL}/disclaimer/` });
   urls.push({ loc: `${SITE_URL}/sitemap/` });
 
-  // category archives (+ pagination)
+  // category archives — page 1 only. Pages 2+ are noindex (see the category
+  // route), and a sitemap should only list URLs we want indexed.
   for (const cat of categories) {
     const catPosts = posts.filter((p) => p.data.categories.includes(cat.slug));
     if (!catPosts.length) continue;
     const newest = catPosts[0].data.modifiedDate ?? catPosts[0].data.publishDate;
     urls.push({ loc: `${SITE_URL}/category/${cat.slug}/`, lastmod: newest });
-    const pageCount = Math.ceil(catPosts.length / PER_PAGE);
-    for (let n = 2; n <= pageCount; n++) {
-      urls.push({ loc: `${SITE_URL}/category/${cat.slug}/page/${n}/` });
-    }
   }
 
-  // author archives (+ pagination)
-  for (const [slug] of Object.entries(authors)) {
-    const authored = posts.filter((p) => p.data.author.toLowerCase() === slug);
-    if (!authored.length) continue;
-    urls.push({ loc: `${SITE_URL}/author/${slug}/` });
-    const pageCount = Math.ceil(authored.length / PER_PAGE);
-    for (let n = 2; n <= pageCount; n++) {
-      urls.push({ loc: `${SITE_URL}/author/${slug}/page/${n}/` });
-    }
-  }
+  // Author archives are deliberately absent: the site has a single author, so
+  // they duplicate the post index and are noindex. See the author route.
 
   const body = urls
     .map((u) => {

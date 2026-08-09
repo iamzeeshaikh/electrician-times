@@ -1,7 +1,7 @@
 ---
 title: "Why Your Circuit Breaker Keeps Tripping: 7 Common Causes"
 slug: "why-circuit-breaker-keeps-tripping"
-description: "A breaker that keeps tripping is telling you something. The 7 most common causes — from simple overload to short circuits and failing devices — and what to do about each."
+description: "A breaker that keeps tripping is telling you something. The 7 most common causes, from simple overload to short circuits, and what to do about each."
 seoTitle: "Why Your Circuit Breaker Keeps Tripping: 7 Causes - Electrician Times"
 seoDescription: "A breaker that keeps tripping is telling you something. The 7 most common causes — from overload to short circuits — and what to do about each one."
 focusKeyword: "circuit breaker keeps tripping"

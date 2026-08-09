@@ -1,7 +1,7 @@
 ---
 title: "Extension Cord Safety: How to Use Extension Leads Without Risk"
 slug: "extension-cord-safety-guide"
-description: "Extension cords cause thousands of preventable fires and injuries. How to choose the right cord, the mistakes that overheat them, and when an extension lead is the wrong answer."
+description: "Extension cords cause thousands of preventable fires. How to choose the right cord, the mistakes that overheat them, and when a lead is the wrong answer."
 seoTitle: "Extension Cord Safety: A Practical Guide - Electrician Times"
 seoDescription: "Extension cords cause thousands of preventable fires. How to choose the right cord, the mistakes that overheat them, and when an extension lead is the wrong answer."
 focusKeyword: "extension cord safety"

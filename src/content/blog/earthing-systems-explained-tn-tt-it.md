@@ -1,7 +1,7 @@
 ---
 title: "Earthing Systems Explained: TN, TT and IT Networks"
 slug: "earthing-systems-explained-tn-tt-it"
-description: "TN-S, TN-C-S, TT and IT describe how a supply is earthed — and they decide how fault current gets back to the source. A plain-language tour of the IEC earthing systems."
+description: "TN-S, TN-C-S, TT and IT decide how fault current gets back to the source. A plain-language tour of the IEC earthing systems and when each one is used."
 seoTitle: "Earthing Systems Explained: TN, TT and IT - Electrician Times"
 seoDescription: "TN-S, TN-C-S, TT and IT describe how a supply is earthed and how fault current returns to the source. A plain-language tour of the IEC earthing systems."
 focusKeyword: "earthing systems"

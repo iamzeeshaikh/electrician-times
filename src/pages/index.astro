@@ -4,7 +4,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import NewsletterBox from '../components/NewsletterBox.astro';
 import JsonLd from '../components/JsonLd.astro';
 import { getPublishedPosts, categories, categoryDescription } from '../utils/content';
-import { SITE_NAME, SITE_URL, SITE_TAGLINE, SITE_DESCRIPTION, SITE_LOGO, absoluteUrl } from '../utils/site';
+import { SITE_NAME, SITE_URL, HOME_TITLE, SITE_DESCRIPTION, SITE_LOGO, absoluteUrl } from '../utils/site';
 
 const posts = await getPublishedPosts();
 const featured = posts.find((p) => p.data.featuredImage) ?? posts[0];
@@ -54,7 +54,7 @@ const schema = [
 ---
 
 <BaseLayout
-  title={`${SITE_NAME} - ${SITE_TAGLINE}`}
+  title={HOME_TITLE}
   rawTitle={true}
   description={SITE_DESCRIPTION}
   canonical="/"

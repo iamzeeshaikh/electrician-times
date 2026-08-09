@@ -1,5 +1,5 @@
 ---
-import { SITE_NAME, SITE_URL, DEFAULT_OG_IMAGE, absoluteUrl, pageTitle } from '../utils/site';
+import { SITE_NAME, SITE_URL, DEFAULT_OG_IMAGE, absoluteUrl, pageTitle, trimTitle } from '../utils/site';
 
 export interface Props {
   title: string;
@@ -32,7 +32,7 @@ const {
   author,
 } = Astro.props;
 
-const finalTitle = rawTitle ? title : pageTitle(title);
+const finalTitle = trimTitle(rawTitle ? title : pageTitle(title));
 const canonicalUrl = canonical ? absoluteUrl(canonical) : absoluteUrl(Astro.url.pathname);
 const robots = `${noindex ? 'noindex' : 'index'}, ${nofollow ? 'nofollow' : 'follow'}${noindex ? '' : ', max-image-preview:large'}`;
 const ogImageUrl = absoluteUrl(ogImage);
