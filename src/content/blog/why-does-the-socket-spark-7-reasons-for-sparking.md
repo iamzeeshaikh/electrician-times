@@ -43,7 +43,7 @@ sourceWordPressId: 1099
 
 <p>The faster the switching is completed and the air gap is eliminated, the less equipment can be damaged.</p>
 
-<p>For example, a modern SF6 <a href="/understanding-circuit-breakers-types-and-functions/">circuit breaker</a> of a 330 kV network opens its contacts and breaks a load of more than 7000 amperes in 1 sine wave period (0.022 seconds). This is his standard for eliminating every accident when a short circuit occurs.</p>
+<p>For example, a modern SF6 <a href="/understanding-circuit-breakers-types-and-functions/">how circuit breakers work</a> of a 330 kV network opens its contacts and breaks a load of more than 7000 amperes in 1 sine wave period (0.022 seconds). This is his standard for eliminating every accident when a short circuit occurs.</p>
 
 <figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="600" height="427" src="/wp-content/uploads/2024/01/Electric-spark-formation.webp" alt="" class="wp-image-1100"/></figure>
 

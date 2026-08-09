@@ -47,7 +47,7 @@ sourceWordPressId: 2090
 <p><span style="font-weight: 400;">Upgraded electrical systems save energy and enhance safety, ensuring homes are fully prepared for future green innovations such as EV charging systems or expanded solar arrays.</span></p>
 <h2><b>Benefits of Partnering with Geelong Electricians</b></h2>
 <h3><b>Proven Local Results</b></h3>
-<p><span style="font-weight: 400;">Over the years, clients in Geelong and the surrounding areas have seen measurable savings and a significant boost in home value. An Ocean Grove homeowner upgraded to <a href="/the-lifespan-of-solar-panels-how-long-do-they-last/">solar panels</a> with battery integration and installed a heat pump, resulting in annual savings of $2,100 on energy costs. These solutions also increased the home's resale value!</span></p>
+<p><span style="font-weight: 400;">Over the years, clients in Geelong and the surrounding areas have seen measurable savings and a significant boost in home value. An Ocean Grove homeowner upgraded to <a href="/the-lifespan-of-solar-panels-how-long-do-they-last/">how long solar panels last</a> with battery integration and installed a heat pump, resulting in annual savings of $2,100 on energy costs. These solutions also increased the home's resale value!</span></p>
 <h3><b>Industry-Leading Warranties</b></h3>
 <p><span style="font-weight: 400;">We stand by the quality of our workmanship with an impressive 25-year panel performance guarantee and lifetime workmanship warranties. That means you can enjoy peace of mind knowing that your investment in sustainability is secure.</span></p>
 <h3><b>Seamless Rebate and Incentive Management</b></h3>

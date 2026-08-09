@@ -24,7 +24,7 @@ sourceWordPressId: 1870
 <p>PCB fabrication is yet another vital process to follow. A proper choice of manufacturer would assist you in getting quality, competent, and reliable PCBs, which are much needed for the operation and service life of your electronic projects.</p>
 <p>This article will highlight the key considerations when choosing the <strong>PCB fabrication manufacturer. </strong></p>
 <h2>PCB Fabrication Fundamentals</h2>
-<p><a href="/advanced-materials-in-pcb-manufacturing/">PCB manufacturing</a> consists of manufacturing the physical boards that offer physical support to the electronic components and wire the components together. This generally involves designing circuit boards, etching copper foil, drilling holes, and placing multiple layers of finishing coat coverings.</p>
+<p><a href="/advanced-materials-in-pcb-manufacturing/">advanced materials in PCB manufacturing</a> consists of manufacturing the physical boards that offer physical support to the electronic components and wire the components together. This generally involves designing circuit boards, etching copper foil, drilling holes, and placing multiple layers of finishing coat coverings.</p>
 <p>PCBs have different types. These can be classified as single-sided PCB, double-sided PCB, and multi-layer PCB. A single-sided PCB has only one layer of copper foil.</p>
 <p>Double-sided has two layers of copper sided (both on each side). Multilayer PCB on the other hand has more than two layers of PCB. The layers of PCB in multilayer can be changed depending upon the requirement.</p>
 <p>Following are the considerations one must take into account when <strong><a href="https://www.viasion.com/pcb-fabrication/">choosing the PCB fabrication manufacturer</a></strong>.</p>

@@ -55,7 +55,7 @@ faq:
 <p>Cracked sheaths, taped-over repairs, bent pins, plugs that hang loose in the socket. Damaged flexible cords are among the most common ignition sources — and the cheapest to fix. Replace, don't tape.</p>
 
 <h3>9. No residual-current protection</h3>
-<p>RCDs, RCBOs or GFCIs — whatever your region calls them — cut power in milliseconds when current leaks through insulation or a person. If your panel predates them or your bathroom and outdoor sockets aren't protected, that's a high-value upgrade. Test existing devices with their TEST button regularly; a device that won't trip is a device that won't save you. (Confused by the acronyms? <a href="/rcd-vs-rcbo-vs-gfci-differences/">Start here</a>.)</p>
+<p>RCDs, RCBOs or GFCIs — whatever your region calls them — cut power in milliseconds when current leaks through insulation or a person. If your panel predates them or your bathroom and outdoor sockets aren't protected, that's a high-value upgrade. Test existing devices with their TEST button regularly; a device that won't trip is a device that won't save you. (Confused by the acronyms? <a href="/rcd-vs-rcbo-vs-gfci-differences/">RCD, RCBO and GFCI differences</a>.)</p>
 
 <h3>10. Two-prong outlets, missing earths and DIY history</h3>
 <p>Older homes accumulate sins: outlets without earth connections, junctions buried in walls, mystery cables and renovations done by the previous owner's cousin. If your home is decades old and has never had a professional inspection, book one — it's the electrical equivalent of a health check-up.</p>

@@ -59,7 +59,7 @@ sourceWordPressId: 2073
 <h2><b>4. Broken Oven Door Seal</b><span style="font-weight: 400;"> </span></h2>
 <p><span style="font-weight: 400;">If the oven door doesn't seal properly, heat can escape, preventing the oven from reaching the correct temperature. Check the gasket around the oven door for cracks or wear, and go for</span> <a href="https://ovenfixer.com.au/oven-repair/"><span style="font-weight: 400;">oven repair services</span></a><span style="font-weight: 400;"> if necessary. </span></p>
 <h2><b>5. Issues with Power Supply</b><span style="font-weight: 400;"> </span></h2>
-<p><span style="font-weight: 400;">For electric ovens, a tripped <a href="/understanding-circuit-breakers-types-and-functions/">circuit breaker</a> or loose wiring may prevent the oven from getting enough power to heat up. For gas ovens, ensure the gas supply is turned on and functioning correctly. </span></p>
+<p><span style="font-weight: 400;">For electric ovens, a tripped <a href="/understanding-circuit-breakers-types-and-functions/">how circuit breakers work</a> or loose wiring may prevent the oven from getting enough power to heat up. For gas ovens, ensure the gas supply is turned on and functioning correctly. </span></p>
 <h2><b>6. Control Board or Relay Board Failure</b><span style="font-weight: 400;"> </span></h2>
 <p><span style="font-weight: 400;">The </span><b>electronic control board</b><span style="font-weight: 400;"> regulates the oven's heating cycles. If it malfunctions, the oven may fail to heat properly. This issue is less common but may require a professional repair. </span></p>
 <h2><b>7. Clogged Gas Burner (Gas Ovens Only)</b><span style="font-weight: 400;"> </span></h2>

@@ -23,7 +23,7 @@ sourceWordPressId: 1114
 
 <p>But a lack of understanding by users, and sometimes by electricians, of the differences and purpose of these protective equipment has led to cases of installation, resulting in<br>fires, since this device does not turn off even during a short circuit and burns, causing a fire and smoke in the electrical panel.</p>
 
-<p>Manufacturers of electrical protective devices quickly responded to this common mistake and created a combined electrical protective device that contains an overcurrent <a href="/understanding-circuit-breakers-types-and-functions/">circuit breaker</a> and a shock protection device in one module, called a differential circuit breaker, which is also called a differential circuit breaker (RCBO).</p>
+<p>Manufacturers of electrical protective devices quickly responded to this common mistake and created a combined electrical protective device that contains an overcurrent <a href="/understanding-circuit-breakers-types-and-functions/">how circuit breakers work</a> and a shock protection device in one module, called a differential circuit breaker, which is also called a differential circuit breaker (RCBO).</p>
 
 
 

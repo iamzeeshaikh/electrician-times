@@ -28,7 +28,7 @@ faq:
 
 <p>Every electrical installation has to answer one deceptively simple question: <em>when something goes wrong and current escapes to exposed metal, how does it get back to the source fast enough to trip the protection?</em> The internationally used answer is a family of "earthing systems" with cryptic names — TN-S, TN-C-S, TT, IT — defined in the IEC's wiring standards and adopted, with local variations, across much of the world.</p>
 
-<p>This site has covered the practical side in <a href="/a-comprehensive-guide-to-installing-protective-grounding/">installing protective grounding</a> and <a href="/do-it-yourself-grounding-device-in-a-private-house/">grounding electrodes for private houses</a>; this article gives you the map those articles fit into.</p>
+<p>This site has covered the practical side in <a href="/a-comprehensive-guide-to-installing-protective-grounding/">installing protective grounding</a>, along with grounding electrodes for private houses; this article gives you the map those articles fit into.</p>
 
 <h2>Decoding the letters</h2>
 <ul>
@@ -38,7 +38,7 @@ faq:
 </ul>
 
 <h2>TN-S: separate neutral and earth all the way</h2>
-<p>The supply provides five conductors in three-phase form (or three in single-phase): phases, neutral, and a dedicated protective earth running back to the transformer. A fault to metalwork sees a low-impedance metallic loop, drives a large fault current, and the <a href="/understanding-circuit-breakers-types-and-functions/">circuit breaker</a> trips quickly.</p>
+<p>The supply provides five conductors in three-phase form (or three in single-phase): phases, neutral, and a dedicated protective earth running back to the transformer. A fault to metalwork sees a low-impedance metallic loop, drives a large fault current, and the <a href="/understanding-circuit-breakers-types-and-functions/">how circuit breakers work</a> trips quickly.</p>
 <p><strong>Strengths:</strong> clean, predictable, no fault current flowing through combined conductors. <strong>Weaknesses:</strong> an extra conductor to run, and the earth path depends entirely on that conductor's integrity.</p>
 
 <h2>TN-C and TN-C-S: the combined PEN conductor</h2>
@@ -46,7 +46,7 @@ faq:
 <p><strong>Strengths:</strong> economical for the network, low-impedance fault path. <strong>The known weakness:</strong> everything hangs on the PEN conductor. If it breaks in the network, exposed metalwork in the installation can rise to dangerous voltage — which is why regulations hedge TN-C-S with extra bonding requirements and restrict it for special situations such as some outdoor and vehicle-supply installations. Those detailed rules are jurisdiction-specific; this is firmly electrician territory.</p>
 
 <h2>TT: your own earth electrode</h2>
-<p>The source is earthed, and your installation has its own earth electrode — rods, tapes or a <a href="/review-of-pue-standards-for-grounding-loop/">grounding loop</a> — with no metallic earth conductor from the supply. Fault current must return through the general mass of earth, so it is far smaller than in TN systems; often too small to trip an ordinary breaker.</p>
+<p>The source is earthed, and your installation has its own earth electrode — rods, tapes or a <a href="/review-of-pue-standards-for-grounding-loop/">PUE standards for grounding loops</a> — with no metallic earth conductor from the supply. Fault current must return through the general mass of earth, so it is far smaller than in TN systems; often too small to trip an ordinary breaker.</p>
 <p>That is why TT installations lean on <strong>residual current devices</strong>: an RCD detects a few tens of milliamps of leakage regardless of how weak the earth path is. If your installation is TT, working RCDs aren't an upgrade — they're the design. (See our comparison of <a href="/rcd-vs-rcbo-vs-gfci-differences/">RCD, RCBO and GFCI protection</a>.)</p>
 <p><strong>Typical use:</strong> rural supplies, overhead networks, countries where the distributor doesn't export an earth.</p>
 

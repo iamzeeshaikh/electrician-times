@@ -38,7 +38,7 @@ faq:
 
 <h2>3. Loose connections and switch problems</h2>
 <p>A lamp that flickers when someone walks across the floor, when you jiggle the switch, or randomly with no pattern may simply have a bad connection — at the lampholder, the switch, a junction box or a terminal that was never tightened properly. Because LEDs draw so little current, marginal connections that incandescents "pushed through" show up as visible flicker.</p>
-<p><strong>The fix:</strong> first try the cheap answer — reseat the bulb, clean lampholder contacts (power off). If flicker persists or affects a whole fitting or room, get an electrician to inspect the circuit's connections. Loose terminations generate heat and are a genuine fire risk, the same mechanism behind <a href="/why-does-the-socket-spark-7-reasons-for-sparking/">sparking sockets</a>.</p>
+<p><strong>The fix:</strong> first try the cheap answer — reseat the bulb, clean lampholder contacts (power off). If flicker persists or affects a whole fitting or room, get an electrician to inspect the circuit's connections. Loose terminations generate heat and are a genuine fire risk, the same mechanism behind <a href="/why-does-the-socket-spark-7-reasons-for-sparking/">why sockets spark</a>.</p>
 
 <h2>4. Voltage dips from heavy appliances</h2>
 <p>If the lights dip every time the air conditioner compressor, water pump or workshop tool starts, you're watching voltage sag from inrush current. Small, occasional dips when a big motor starts are normal in most homes; deep or frequent dips are not.</p>

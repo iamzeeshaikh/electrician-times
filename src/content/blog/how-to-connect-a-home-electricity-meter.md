@@ -31,7 +31,7 @@ sourceWordPressId: 1318
 
 <figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="612" height="405" src="/wp-content/uploads/2024/03/old-Meter.jpg" alt="" class="wp-image-1320"/><figcaption class="wp-element-caption">Old Meter</figcaption></figure>
 
-<p>We’ve prepared, we’ve figured out everything, we move on. We turn off the input <a href="/understanding-circuit-breakers-types-and-functions/">circuit breaker</a> (switch) before the meter, thereby de-energizing the meter and ensuring comfortable and safe operation. We remove the seal, unscrew the cover under which the input and output terminals are located.</p>
+<p>We’ve prepared, we’ve figured out everything, we move on. We turn off the input <a href="/understanding-circuit-breakers-types-and-functions/">how circuit breakers work</a> (switch) before the meter, thereby de-energizing the meter and ensuring comfortable and safe operation. We remove the seal, unscrew the cover under which the input and output terminals are located.</p>
 
 <p>Here it wouldn’t hurt to turn on the input machine and, just in case, check the correctness of the connection diagram using an indicator screwdriver (phase indicator). You never know what happened before, what miracles happened here in the past :), and you have to be completely confident in your work.</p>
 

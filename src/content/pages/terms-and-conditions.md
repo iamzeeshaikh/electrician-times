@@ -8,7 +8,7 @@ format: "html"
 sourceWordPressId: 1268
 ---
 
-<p>Welcome to ElectricianTimes! These terms and conditions outline the rules and regulations for the use of ElectricianTimes's Website, located at <a href="/"><strong>ElectricianTimes</strong></a>.</p>
+<p>Welcome to ElectricianTimes! These terms and conditions outline the rules and regulations for the use of ElectricianTimes's Website, located at <a href="/"><strong>the Electrician Times home page</strong></a>.</p>
 
 <p>By accessing this website, we assume you accept these terms and conditions in full. Do not continue to use ElectricianTimes if you do not agree to all of the terms and conditions stated on this page.</p>
 

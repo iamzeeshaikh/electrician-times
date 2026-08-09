@@ -48,7 +48,7 @@ faq:
 
 <h2>The legacy problem: small-gauge aluminum branch wiring</h2>
 <p>In the 1960s and early 1970s, high copper prices pushed builders in several countries to run small aluminum conductors to outlets and switches. Combined with devices designed for copper, the failure modes above produced a well-documented record of overheated terminations. That era is why "aluminum wiring" alarms home inspectors and insurers to this day.</p>
-<p>If your home dates from that period and hasn't been inspected, put it on your list — warning signs like warm outlet plates, flickering and <a href="/why-does-the-socket-spark-7-reasons-for-sparking/">sparking sockets</a> deserve immediate professional attention. Approved remediation methods exist that don't require rewiring the whole house; a licensed electrician can advise what your local rules accept.</p>
+<p>If your home dates from that period and hasn't been inspected, put it on your list — warning signs like warm outlet plates, flickering and <a href="/why-does-the-socket-spark-7-reasons-for-sparking/">why sockets spark</a> deserve immediate professional attention. Approved remediation methods exist that don't require rewiring the whole house; a licensed electrician can advise what your local rules accept.</p>
 
 <h2>Where each conductor is the right choice today</h2>
 <table>

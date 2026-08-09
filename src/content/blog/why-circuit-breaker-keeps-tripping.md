@@ -51,7 +51,7 @@ faq:
 <p><strong>What to do:</strong> this is a design question — breakers come in different trip characteristics for exactly this reason, and matching curve to load is an electrician's decision. Don't simply fit a bigger breaker; the cable it protects hasn't gotten any bigger.</p>
 
 <h2>6. Loose or corroded connections</h2>
-<p>A loose terminal creates localized heating, and heat is what a breaker's thermal element measures. Loose connections can also arc, which trips arc-fault-detecting devices where fitted. Warm outlet faceplates, buzzing sounds or <a href="/why-does-the-socket-spark-7-reasons-for-sparking/">sparking sockets</a> alongside the tripping raise the suspicion further.</p>
+<p>A loose terminal creates localized heating, and heat is what a breaker's thermal element measures. Loose connections can also arc, which trips arc-fault-detecting devices where fitted. Warm outlet faceplates, buzzing sounds or <a href="/why-does-the-socket-spark-7-reasons-for-sparking/">why sockets spark</a> alongside the tripping raise the suspicion further.</p>
 <p><strong>What to do:</strong> loose connections are a fire risk and belong to a professional. An electrician will inspect terminations on the circuit — including inside the panel, where DIY hands should never go.</p>
 
 <h2>7. The breaker itself is worn out</h2>

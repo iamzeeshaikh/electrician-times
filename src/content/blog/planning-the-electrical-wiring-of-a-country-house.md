@@ -43,7 +43,7 @@ sourceWordPressId: 1096
 
 <p>- determine the cross-section of the cable used to enter the house (if each core is 2.5 mm&nbsp;<sup>2</sup>&nbsp;- this is not enough according to modern requirements);</p>
 
-<p>– there is household equipment that requires a separate powerful line with its <a href="/understanding-circuit-breakers-types-and-functions/">circuit breaker</a> (for example, a washing machine or a powerful power tool). I classify this item as a critical malfunction because operating equipment that is turned on “anyhow” can lead to a fire.</p>
+<p>– there is household equipment that requires a separate powerful line with its <a href="/understanding-circuit-breakers-types-and-functions/">how circuit breakers work</a> (for example, a washing machine or a powerful power tool). I classify this item as a critical malfunction because operating equipment that is turned on “anyhow” can lead to a fire.</p>
 
 <p>You can add to the list yourself, based on the “filling” of your home.</p>
 
