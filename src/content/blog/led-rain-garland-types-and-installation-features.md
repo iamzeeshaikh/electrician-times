@@ -13,7 +13,7 @@ featuredImage: "/wp-content/uploads/2024/03/LED.png"
 featuredImageAlt: ""
 featuredImageWidth: 1792
 featuredImageHeight: 1024
-ogImage: "/wp-content/uploads/2024/03/LED-1024x585.png"
+ogImage: "/wp-content/uploads/2024/03/LED.png"
 draft: false
 format: "html"
 sourceWordPressId: 1315
