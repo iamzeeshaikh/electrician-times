@@ -1,0 +1,25 @@
+# Deliberately minimal — NOT a mirror of .gitignore.
+#
+# Once this file exists Vercel uses it instead of .gitignore, so anything the
+# remote build needs must keep uploading. Only list things Vercel regenerates
+# itself, plus local noise.
+
+# Vercel installs dependencies and runs the build.
+node_modules
+dist
+.astro
+.vercel
+
+# Real values come from the project's environment variables.
+.env
+.env.*
+
+# The exFAT drive writes an AppleDouble `._name` sidecar next to every file.
+# Without this they upload and get served as 4KB junk with a real image
+# Content-Type — /._images returned 200 before this was added.
+._*
+.DS_Store
+
+*.log
+.vscode
+.idea
