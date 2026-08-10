@@ -43,7 +43,7 @@ sourceWordPressId: 1142
 
 <p>Various types of cables can be used not only on the surface but also underground, in water. This is possible because one or more insulated cores are protected by a special sheath. It can be made of various materials that can withstand aggressive environmental conditions.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="375" src="/wp-content/uploads/2024/01/Specifics-of-various-types-of-cable-products.webp" alt="" class="wp-image-1143"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="375" src="/wp-content/uploads/2024/01/Specifics-of-various-types-of-cable-products.webp" alt="Different cable types cut open to show the insulated cores and protective outer sheath" class="wp-image-1143"/></figure>
 
 <p>As for electrical wires, they also contain wires or strands that are twisted or insulated from each other. They are covered with a protective non-metallic sheath or winding, which does not imply their lying in the ground.</p>
 
@@ -90,7 +90,7 @@ sourceWordPressId: 1142
 <li>the green-yellow colour indicates grounding.</li>
 </ul>
 
-<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" loading="lazy" width="642" height="637" src="/wp-content/uploads/2024/01/Color-designation-of-power-and-other-types-of-cable-products.webp" alt="" class="wp-image-1145" style="width:642px;height:auto"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" loading="lazy" width="642" height="637" src="/wp-content/uploads/2024/01/Color-designation-of-power-and-other-types-of-cable-products.webp" alt="Cable cores colour-coded yellow, green and red for phases, blue for neutral, green-yellow for earth" class="wp-image-1145" style="width:642px;height:auto"/></figure>
 
 <p>When a SIP cable is used during the installation of power lines, tags with information about the purpose and parameters are additionally attached to it.&nbsp;This marking also allows you to navigate objects where there are many wires of the same type.</p>
 

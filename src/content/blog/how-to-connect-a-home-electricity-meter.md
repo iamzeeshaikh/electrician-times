@@ -29,7 +29,7 @@ sourceWordPressId: 1318
 
 <p>Here's what we had initially:</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="612" height="405" src="/wp-content/uploads/2024/03/old-Meter.jpg" alt="" class="wp-image-1320"/><figcaption class="wp-element-caption">Old Meter</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="612" height="405" src="/wp-content/uploads/2024/03/old-Meter.jpg" alt="The nineteen-sixties electricity meter and panel being replaced" class="wp-image-1320"/><figcaption class="wp-element-caption">Old Meter</figcaption></figure>
 
 <p>We’ve prepared, we’ve figured out everything, we move on. We turn off the input <a href="/understanding-circuit-breakers-types-and-functions/">how circuit breakers work</a> (switch) before the meter, thereby de-energizing the meter and ensuring comfortable and safe operation. We remove the seal, unscrew the cover under which the input and output terminals are located.</p>
 

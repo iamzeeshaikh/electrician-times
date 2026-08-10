@@ -33,7 +33,7 @@ sourceWordPressId: 1071
 
 <blockquote class="wp-block-quote"><p>There is an opinion: A substation is a TRANSFORMER.&nbsp;The digital substation will be invented immediately after the invention of the digital transformer.&nbsp;In the meantime, a play on fashionable words.</p>
 
-<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" width="1024" height="520" src="/wp-content/uploads/2024/01/PS-110-kV-1024x520.webp" alt="" class="wp-image-1072" style="aspect-ratio:1;width:758px;height:auto"/><figcaption class="wp-element-caption">Substation 110 kV</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" width="1024" height="520" src="/wp-content/uploads/2024/01/PS-110-kV-1024x520.webp" alt="A 110 kV electrical substation with its power transformer and outdoor switchgear" class="wp-image-1072" style="aspect-ratio:1;width:758px;height:auto"/><figcaption class="wp-element-caption">Substation 110 kV</figcaption></figure>
 </blockquote>
 
 <p>The heart of the substation is the power transformer, which converts alternating electrical current from one voltage to another. There are step-down and step-up substations.</p>
@@ -42,7 +42,7 @@ sourceWordPressId: 1071
 
 <p>Also, through the switchgear, the converted voltage from the transformer is supplied to the outgoing lines. There are open (ORU) and closed (CLD) switchgear.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="371" src="/wp-content/uploads/2024/01/Open-switchgear-at-the-substation-OSU.webp" alt="" class="wp-image-1074"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="371" src="/wp-content/uploads/2024/01/Open-switchgear-at-the-substation-OSU.webp" alt="Open-type outdoor switchgear at a substation, feeding converted voltage to the outgoing lines" class="wp-image-1074"/></figure>
 
 <h2><strong>How does relay protection work?</strong></h2>
 
@@ -91,7 +91,7 @@ sourceWordPressId: 1071
 
 <p>If we look into the future, the current political situation requires the use of domestic solutions in both the software and hardware parts of the DSP. If Russia can fully resolve the issues of import substitution and the supply of high-tech equipment, in the future we will see the widespread development of digital production centers.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="322" src="/wp-content/uploads/2024/01/Equipment-of-JINGUYUAN-substation-in-China.webp" alt="" class="wp-image-1075"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="322" src="/wp-content/uploads/2024/01/Equipment-of-JINGUYUAN-substation-in-China.webp" alt="Digital control and protection equipment installed at the JINGUYUAN substation in China" class="wp-image-1075"/></figure>
 
 <h2>Conclusion</h2>
 

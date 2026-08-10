@@ -39,7 +39,7 @@ sourceWordPressId: 1049
 
 <h2>What is an RCD?</h2>
 
-<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="600" height="399" src="/wp-content/uploads/2024/01/Difavtomat-or-UZO.-RCD-device.-Connecting-the-differential-1.webp" alt="" class="wp-image-1051"/></figure>
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="600" height="399" src="/wp-content/uploads/2024/01/Difavtomat-or-UZO.-RCD-device.-Connecting-the-differential-1.webp" alt="A differential circuit breaker mounted on a DIN rail in a distribution panel" class="wp-image-1051"/></figure>
 </figure>
 
 <p>We cannot ignore the second “opponent” in the debate on the topic “difavtomat or RCD”.&nbsp;What is an RCD?</p>
@@ -58,7 +58,7 @@ sourceWordPressId: 1049
 
 <p>It is important to note that all RCDs made according to this classical scheme are extremely reliable and simple devices with very high reliability and reliability.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="600" height="450" src="/wp-content/uploads/2024/01/Basic-information-about-the-RCD-device.webp" alt="" class="wp-image-1052"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="600" height="450" src="/wp-content/uploads/2024/01/Basic-information-about-the-RCD-device.webp" alt="Internal layout of a classic electromechanical RCD showing its differential transformer and relay" class="wp-image-1052"/></figure>
 
 <p>It is necessary to warn that today there are also electronic RCDs, which are based on a special electronic circuit.&nbsp;A relay or circuit acts on a mechanism that opens the electrical circuit if necessary.&nbsp;This is what the RCD device includes.</p>
 
@@ -87,7 +87,7 @@ sourceWordPressId: 1049
 
 <p>Be sure to take this into account when purchasing or consulting with especially “thoughtful” electricians who will be happy to save on your equipment.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="600" height="450" src="/wp-content/uploads/2024/01/Differences-between-the-two-protection-systems.webp" alt="" class="wp-image-1053"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="600" height="450" src="/wp-content/uploads/2024/01/Differences-between-the-two-protection-systems.webp" alt="Side-by-side comparison showing how an RCD and a difavtomat differ as protection devices" class="wp-image-1053"/></figure>
 
 <p>The difavtomat is much better in this regard, because it combines both an RCD and a circuit breaker in one housing.&nbsp;Accordingly, this kind of device not only protects a person from electric shock, but also saves your wiring and equipment from burning out in the event of a short circuit.&nbsp;Thus, the RCD and the difavtomat, the difference between which we have just revealed, are somewhat diverse mechanisms.</p>
 
@@ -105,7 +105,7 @@ sourceWordPressId: 1049
 
 <p>In addition, it doesn’t hurt to look at the connection diagram. This method is somewhat more complicated, but it provides a 100% guarantee of differentiation. This information must also be displayed on the housing. So, if the diagram only indicates the presence of a difavtomat with the designation “Test”, then there is an RCD in front of you (do not confuse it!). Accordingly, if there is a “Test” and the windings of the releases are indicated, then you are holding a differential machine in your hands.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="600" height="448" src="/wp-content/uploads/2024/01/vdsc-v7a027.webp" alt="" class="wp-image-1054"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="600" height="448" src="/wp-content/uploads/2024/01/vdsc-v7a027.webp" alt="Front markings on a differential circuit breaker, including the Test button that distinguishes it from an RCD" class="wp-image-1054"/></figure>
 
 <p>Finally, it makes some sense to also pay attention to the overall dimensions.&nbsp;If we talk about old models of automatic devices, they are an order of magnitude wider than RCDs.&nbsp;In those days, they simply did not know how to produce sufficiently compact releases, and therefore housings with a larger internal volume were required.&nbsp;Attention!&nbsp;All modern differential automatic machines take up less space!</p>
 
@@ -121,7 +121,7 @@ sourceWordPressId: 1049
 
 <p>So, at present, an RCD (three-phase, including) takes up much more space in the panel than a differential circuit breaker.&nbsp;What is this connected with?&nbsp;The most attentive readers themselves could already find the answer to this question in the article.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="600" height="399" src="/wp-content/uploads/2024/01/Volume-occupied-by-the-device-in-the-panel.webp" alt="" class="wp-image-1055"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="600" height="399" src="/wp-content/uploads/2024/01/Volume-occupied-by-the-device-in-the-panel.webp" alt="How much panel space an RCD plus circuit breaker takes up compared with a single difavtomat" class="wp-image-1055"/></figure>
 
 <p>We have already talked about the need to install circuit breakers in front of the RCD, so because of this, the entire structure in the panel begins to take up more space.&nbsp;If you mount a differential machine there, you can save some space.&nbsp;For example: in the standard case, RCDs with circuit breakers occupy three modules at once, while a differential circuit breaker will occupy only two.</p>
 

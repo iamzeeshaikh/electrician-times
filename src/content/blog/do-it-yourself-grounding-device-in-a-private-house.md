@@ -35,7 +35,7 @@ sourceWordPressId: 1135
 
 <p>If you touch a body that has voltage, an electrical current will flow through you to the physical ground. Depending on the humidity, your shoes and floor covering, the current strength will be different. But the danger of electric shock is very high. It is enough to touch a water tap or a heating radiator, and an electric shock can be fatal.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="300" height="226" src="/wp-content/uploads/2024/01/Do-it-yourself-Grounding-Device-In-A-Private-House.webp" alt="" class="wp-image-1136"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="300" height="226" src="/wp-content/uploads/2024/01/Do-it-yourself-Grounding-Device-In-A-Private-House.webp" alt="Grounding conductor connected in a private house to protect against electric shock" class="wp-image-1136"/></figure>
 
 <p>If there is grounding in a private house, and your electrical appliances are connected to it, electric current will flow through the grounding wire.</p>
 
@@ -55,7 +55,7 @@ sourceWordPressId: 1135
 
 <p>All this is the result of uncontrolled filling of your home with electric fields. They are also, to put it mildly, unhealthy.<br>You probably noticed that the power plug of a computer monitor, TV or music centre has a third terminal - for connecting the ground.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="300" height="181" src="/wp-content/uploads/2024/01/Grounding-a-private-home-is-necessary-not-only-to-ensure-safety.webp" alt="" class="wp-image-1137"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="300" height="181" src="/wp-content/uploads/2024/01/Grounding-a-private-home-is-necessary-not-only-to-ensure-safety.webp" alt="A power plug with a third earth terminal, of the kind fitted to monitors and TVs" class="wp-image-1137"/></figure>
 
 <p>It would seem, why?&nbsp;After all, they have plastic cases, electric shock is excluded.</p>
 
@@ -91,7 +91,7 @@ sourceWordPressId: 1135
 
 <p>Attention! Such a grounding arrangement is considered safe only after measurements of the spreading current, or another method of verification.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="300" height="159" src="/wp-content/uploads/2024/01/grounding-device.webp" alt="" class="wp-image-1138"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="300" height="159" src="/wp-content/uploads/2024/01/grounding-device.webp" alt="Assembled grounding device with driven electrodes and connecting strip beside a house" class="wp-image-1138"/></figure>
 
 <h2>How to check grounding without using special instruments?</h2>
 
@@ -100,7 +100,7 @@ sourceWordPressId: 1135
 <ol><li>Using an electric lamp. It is enough to take an incandescent lamp with a power of 40-60 W, screwed into the socket. Connect a flexible wire with insulated probes at the ends to the lamp. One wire is connected to the phase contact of a working 220-volt input. The other end alternately touches the neutral contact and the grounding conductor. If a change in the brightness of the lamp is not noticeable to the eye, the natural grounding resistance is quite low;</li>
 </ol>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="221" height="300" src="/wp-content/uploads/2024/01/How-to-check-grounding-without-using-special-instruments.webp" alt="" class="wp-image-1139"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="221" height="300" src="/wp-content/uploads/2024/01/How-to-check-grounding-without-using-special-instruments.webp" alt="Testing a natural grounding conductor with a lamp touched to the neutral contact and the earth" class="wp-image-1139"/></figure>
 
 <ol><li>A more accurate method is with.&nbsp;The mode switch is set to the “alternating voltage measurement” position.&nbsp;The accuracy limit is as close as possible to 220 volts.&nbsp;In most cases this is 500 volts.</li>
 </ol>

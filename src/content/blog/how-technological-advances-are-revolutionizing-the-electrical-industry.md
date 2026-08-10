@@ -43,7 +43,7 @@ sourceWordPressId: 1429
 <h3>Impact on Electrical Infrastructure</h3>
 <p>The integration of renewable energy sources is necessitating changes in electrical infrastructure. Upgraded transmission lines, smart inverters, and energy management systems are essential for accommodating the variable nature of renewable energy production.</p>
 <h2>Automation and Robotics</h2>
-<p><img decoding="async" loading="lazy" class=" wp-image-1435" src="/wp-content/uploads/2024/07/Automation-and-Robotics.jpg" alt="" width="310" height="206" /></p>
+<p><img decoding="async" loading="lazy" class=" wp-image-1435" src="/wp-content/uploads/2024/07/Automation-and-Robotics.jpg" alt="Robotic automation used in electrical manufacturing and installation work" width="310" height="206" /></p>
 <h3>Enhanced Installation and Maintenance</h3>
 <p>Automation and robotics are playing a significant role in the electrical industry by streamlining installation and maintenance processes. Automated systems can perform tasks with greater precision and speed, reducing labor costs and improving safety.</p>
 <h3>Applications Across Industries</h3>

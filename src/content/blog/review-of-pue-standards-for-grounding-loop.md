@@ -25,7 +25,7 @@ sourceWordPressId: 1058
 
 <p>Very often, PUE standards are used when installing electric lighting in buildings, various premises, as well as streets, towns, and territories of certain institutions or enterprises. They contain conditions for the installation of ultraviolet irradiation in health-improving structures, advertising with lighting devices, and more. When laying wiring in buildings, refer to a specific section of the PUE standards.</p>
 
-<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="640" height="311" src="/wp-content/uploads/2024/01/Review-of-PUE-standards-for-grounding-loop-1.webp" alt="" class="wp-image-1060"/></figure>
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="640" height="311" src="/wp-content/uploads/2024/01/Review-of-PUE-standards-for-grounding-loop-1.webp" alt="The PUE standards open at the section covering wiring installed in buildings" class="wp-image-1060"/></figure>
 </figure>
 
 <p>In separate sections you can find recommendations on how to make a grounding loop, how to install electrical protective devices, and other rules for the operation of various electrical equipment.&nbsp;More detailed and precise information about the conditions for using such equipment is written in the Rules for the Technical Operation of Consumer Electrical Installations (PTEEP).</p>
@@ -38,7 +38,7 @@ sourceWordPressId: 1058
 
 <p>According to the current Rules for Electrical Installations, the secondary circuit must be located at the exit points of any type of building. Natural grounding conductors should be installed in place of the repeated grounding loop. The rules specify some metal structure trimmers that are suitable for grounding. Among them you can find reinforced concrete structures, massive metal parts that must come into contact with the ground with most of their surface. If the circuit is connected in an aggressive environment, then such structures must have a special protective coating. Also suitable for a grounding element are a metal water pipe that is dug deep into the ground, or long rails from non-electrified railways.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="768" height="576" src="/wp-content/uploads/2024/01/Standards-regarding-ground-loops.webp" alt="" class="wp-image-1061"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="768" height="576" src="/wp-content/uploads/2024/01/Standards-regarding-ground-loops.webp" alt="Grounding electrodes buried in the soil, of the type the PUE standards permit for a ground loop" class="wp-image-1061"/></figure>
 
 <p>You must definitely pay attention to the PUE clause, which indicates elements that cannot be used as a ground loop.&nbsp;These include reinforced concrete structures with metal elements that are energized, as well as pipelines with flammable substances, heating and sewer pipes.&nbsp;If the circuit must be made using a natural grounding device (soil, foundation under a building), then you must first make theoretical calculations and a connection diagram.</p>
 
@@ -46,7 +46,7 @@ sourceWordPressId: 1058
 
 <p>A very important factor that influences the circuit is soil resistance. So in places with high soil moisture, the resistance will be low. Significant installation problems arise on dry soil. For example, sandy soils, rocky or stone formations are completely unsuitable for such work.<br>The regulatory documents indicate the exact resistance value that determines the level of current flow, as well as what resistance the circuit should have.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="640" height="480" src="/wp-content/uploads/2024/01/Standards-regarding-ground-loopa.webp" alt="" class="wp-image-1062"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="640" height="480" src="/wp-content/uploads/2024/01/Standards-regarding-ground-loopa.webp" alt="Measuring ground loop resistance against the value the PUE standards require" class="wp-image-1062"/></figure>
 
 <p>There are two types of grounding used in household electrical installations.</p>
 
@@ -58,7 +58,7 @@ sourceWordPressId: 1058
 
 <p>Deep ground loop. This type eliminates most of the disadvantages that are present in the traditional method. This method involves a modular-pin system. This design is made in specialized factories and has a certificate. The modular pin system has several advantages. First of all, this is compliance with all technical norms and standards. It has a long service life of more than 30 years. This design always has a stable resistance to the spreading of an electric charge under any weather conditions. The supports are driven 25-30 meters deep into the ground, which ensures reliable grounding of large buildings.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="640" height="480" src="/wp-content/uploads/2024/01/Standards-regarding-ground-loopa-1.webp" alt="" class="wp-image-1063"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="640" height="480" src="/wp-content/uploads/2024/01/Standards-regarding-ground-loopa-1.webp" alt="Deep-driven support electrodes providing reliable grounding for a large building" class="wp-image-1063"/></figure>
 
 <p>Such a system does not need to be constantly checked, as it is quite simple and reliable.&nbsp;The design and calculation of the grounding conductors of a modular-pin system are simpler than a do-it-yourself protection system.</p>
 

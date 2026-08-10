@@ -65,13 +65,13 @@ sourceWordPressId: 1114
 
 <p>The electromagnetic and thermal splitters are identical to similar parts of a separate current circuit breaker. Their operation is described in detail in the relevant sections; important features should be briefly noted:<br>At a high current, many times greater than In, the electromagnetic relay is activated almost instantly, pulling out the latch and turning off the differential circuit breaker.</p>
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1024" height="768" src="/wp-content/uploads/2024/01/popiconkyk-1.webp" alt="" class="wp-image-1116"/></figure>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1024" height="768" src="/wp-content/uploads/2024/01/popiconkyk-1.webp" alt="Internal components of an RCD, including the electromagnetic relay and latch" class="wp-image-1116"/></figure>
 
 <p>Internals of the RCD</p>
 
 <p>A differential circuit breaker is triggered when a difference is detected (different in English) in the currents flowing in the phase and neutral wires, which in an ideal system should coincide. Figuratively, this picture can be represented in the form of a certain number of electrons flowing through the input phase conductor, branching into individual consumers and producing work in them, again flocking in the neutral conductor, and not a single one should be lost.</p>
 
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="831" height="960" src="/wp-content/uploads/2024/01/cefile-he6df.webp" alt="" class="wp-image-1115"/></figure>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="831" height="960" src="/wp-content/uploads/2024/01/cefile-he6df.webp" alt="Current flowing through the phase and neutral conductors of a differential transformer" class="wp-image-1115"/></figure>
 
 <p>In the normal operating mode of the power supply system, when the currents of the primary windings are equal, the magnetic flux created by them is mutually compensated.&nbsp;In the event of a leak, the current in the neutral wire will be less, the balance of magnetic fluxes will be disrupted, and a current will arise in the secondary winding, causing the protection device to operate.</p>
 

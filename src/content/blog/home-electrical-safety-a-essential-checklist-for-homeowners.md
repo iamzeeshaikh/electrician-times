@@ -40,7 +40,7 @@ sourceWordPressId: 1332
 <li data-sourcepos="16:1-17:0"><strong>Appliance Safety:</strong> Always unplug appliances before cleaning or performing maintenance. Additionally, refrain from using appliances with frayed cords or damaged plugs.</li>
 </ul>
 <h2 data-sourcepos="18:1-18:25"><strong>Specific Room Safety:</strong></h2>
-<p><img decoding="async" loading="lazy" class="aligncenter wp-image-1336 size-full" src="/wp-content/uploads/2024/06/Home-Electrical-Safety-A-Essential-Checklist-for-Homeowners.webp" alt="" width="768" height="512" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-1336 size-full" src="/wp-content/uploads/2024/06/Home-Electrical-Safety-A-Essential-Checklist-for-Homeowners.webp" alt="Homeowner checking an appliance cord during a household electrical safety inspection" width="768" height="512" /></p>
 <ul data-sourcepos="20:1-20:14">
 <li data-sourcepos="20:1-20:14"><strong>Kitchen:</strong> Inspect appliance cords for damage from frequent use. Ensure toaster ovens, microwaves, and other countertop appliances have adequate space for ventilation to prevent overheating.</li>
 <li data-sourcepos="21:1-21:145"><strong>Bathroom:</strong> Never use hair dryers or other electrical appliances near bathtubs or showers. Utilize GFCI outlets for all bathroom fixtures.</li>

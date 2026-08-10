@@ -29,22 +29,22 @@ sourceWordPressId: 1040
 
 <h2>Thermal insulation</h2>
 
-<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="680" height="459" src="/wp-content/uploads/2024/01/DIY-electric-heated-floor-1.webp" alt="" class="wp-image-1042"/></figure>
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="680" height="459" src="/wp-content/uploads/2024/01/DIY-electric-heated-floor-1.webp" alt="Thermal insulation boards laid across a floor before the electric heating cable goes down" class="wp-image-1042"/></figure>
 </figure>
 
 <h3>Reinforcement</h3>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="700" height="437" src="/wp-content/uploads/2024/01/Reinforcement.webp" alt="" class="wp-image-1043"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="700" height="437" src="/wp-content/uploads/2024/01/Reinforcement.webp" alt="Reinforcing mesh laid over the insulation before the cement screed of an electric heated floor" class="wp-image-1043"/></figure>
 
 <p>After this, it is necessary to make a reinforced screed from a solution 10-20 mm thick. Reinforcement can be done either with galvanized plaster mesh or with plastic mesh. Foil is placed on top of the screed to reflect infrared radiation from the heating elements.</p>
 
 <h2>Filling skirt</h2>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="700" height="508" src="/wp-content/uploads/2024/01/Filling-skirt.webp" alt="" class="wp-image-1044"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="700" height="508" src="/wp-content/uploads/2024/01/Filling-skirt.webp" alt="Heating cable positioned over foil-covered screed while laying an electric heated floor" class="wp-image-1044"/></figure>
 
 <p>When starting the installation of an electric heated floor with your own hands, determine the location of the heating cable, taking into account the arrangement of various furniture, making sure that the wires will be located at a distance of up to 5 cm from the edge of the furniture. When laying a heating cable, it is necessary to attach it to the lower base using a special mounting tape, and then fill it with a cement-sand screed from a solution or a ready-made mixture.</p>
 
-<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" loading="lazy" width="700" height="434" src="/wp-content/uploads/2024/01/Filling-skirt-1.webp" alt="" class="wp-image-1045" style="width:700px;height:auto"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" loading="lazy" width="700" height="434" src="/wp-content/uploads/2024/01/Filling-skirt-1.webp" alt="Heating cable fixed with mounting tape and covered by a cement-sand screed" class="wp-image-1045" style="width:700px;height:auto"/></figure>
 
 <p>Various technological subtleties that arise during installation can be seen by watching videos of the installation of electric heated floors with your own hands on our website, where they are performed by professional craftsmen. Simultaneously with laying the cable, a temperature control system sensor is installed in the thickness of the screed, and a thermostat is installed in a convenient place, allowing you to regulate the floor temperature at your discretion.</p>
 

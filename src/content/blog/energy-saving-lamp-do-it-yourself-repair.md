@@ -27,7 +27,7 @@ sourceWordPressId: 1110
 
 <p>The design of a CFL and the physical processes that cause the gas discharge of a conventional fluorescent lamp to glow are identical. The differences lie in the element base from which the control gear circuit is created and the dimensions of the lamp.</p>
 
-<figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="729" src="/wp-content/uploads/2024/01/The-design-of-a-CFL-1024x729.webp" alt="" class="wp-image-1111"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="1024" height="729" src="/wp-content/uploads/2024/01/The-design-of-a-CFL-1024x729.webp" alt="Cutaway of a compact fluorescent lamp showing the tube and its built-in control gear" class="wp-image-1111"/></figure>
 
 <p>A compact lamp is screwed into a regular socket, while a simple fluorescent lamp is made with a long tube.</p>
 

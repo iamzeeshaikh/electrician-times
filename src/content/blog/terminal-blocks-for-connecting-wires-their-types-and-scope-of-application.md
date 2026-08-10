@@ -25,7 +25,7 @@ sourceWordPressId: 1118
 
 <p>The use of this switching option is the most popular due to the minimal labor costs for installation and compliance with all standards.&nbsp;A separate advantage is the ability to connect wires of different sections and materials.&nbsp;These days, the market for electrical materials is crowded with various products, but these terminal blocks are undoubtedly the best sellers.</p>
 
-<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" loading="lazy" width="730" height="180" src="/wp-content/uploads/2024/01/Terminal-Blocks.webp" alt="" class="wp-image-1119" style="width:780px;height:auto"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" loading="lazy" width="730" height="180" src="/wp-content/uploads/2024/01/Terminal-Blocks.webp" alt="Assorted wire terminal blocks for joining conductors of different sections and materials" class="wp-image-1119" style="width:780px;height:auto"/></figure>
 
 <h2>Types of wire terminal connections</h2>
 
@@ -42,11 +42,11 @@ sourceWordPressId: 1118
 
 <p>Currently, this type of wire connection, such as ordinary twisting, has begun to fade into the background.&nbsp;To ensure reliable contact at the junctions of electrical wiring, specialized connecting terminals are used, which are called terminal blocks.&nbsp;There is a huge variety of such pads on the modern market in our country.&nbsp;They differ from each other: in price tag, design and some performance features.<br>The design of the pads is identical.&nbsp;It consists of the body itself, inside of which there are special cells, and inside these cells there are already brass tubes with several threaded holes.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="450" height="297" src="/wp-content/uploads/2024/01/Types-of-wire-terminal-connections.webp" alt="" class="wp-image-1120"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="450" height="297" src="/wp-content/uploads/2024/01/Types-of-wire-terminal-connections.webp" alt="Inside a terminal block, showing the brass tubes and their threaded clamping screws" class="wp-image-1120"/></figure>
 
 <p>The tubes themselves come in different sections; they are selected according to their diameter, corresponding to the cross-sectional diameter of the wires themselves.<br>Terminal blocks are used in a wide variety of places.&nbsp;An example would be the way to connect an ordinary chandelier in an apartment; it is connected to short conductors sticking out of a hole in the ceiling.</p>
 
-<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" loading="lazy" width="500" height="375" src="/wp-content/uploads/2024/01/9417736-740x306-1.webp" alt="" class="wp-image-1121" style="width:500px;height:auto"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" loading="lazy" width="500" height="375" src="/wp-content/uploads/2024/01/9417736-740x306-1.webp" alt="Chandelier wires joined to short ceiling conductors using a terminal block" class="wp-image-1121" style="width:500px;height:auto"/></figure>
 
 <p>This method is often used to connect wires that are broken and located in the wall.&nbsp;Often such conductors are not long enough for subsequent connection in another way.</p>
 
@@ -59,7 +59,7 @@ sourceWordPressId: 1118
 
 <p>The WAGO company (WAGO Kontakttechnik GmbH &amp; Co. KG) was founded in 1951 in Germany.&nbsp;She began her production with the development and implementation of spring terminals, in which she was very successful.&nbsp;To this day, the company is engaged in the production of this electrical equipment and finds only positive reviews in the electronics and electrical engineering market.<br>1973 marked the beginning of the production of the first small-sized terminal blocks.&nbsp;Then these products were patented, and production began to increase.&nbsp;Today, VAGO is a world leader in the production of spring terminals and other connectors necessary for the installation of electrical wiring.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="451" height="233" src="/wp-content/uploads/2024/01/WAGO-terminals.webp" alt="" class="wp-image-1123"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="451" height="233" src="/wp-content/uploads/2024/01/WAGO-terminals.webp" alt="WAGO spring-clamp terminals used for electrical wiring connections" class="wp-image-1123"/></figure>
 
 <p>The main advantages of spring terminals are:</p>
 

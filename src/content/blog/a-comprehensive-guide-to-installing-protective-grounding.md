@@ -46,7 +46,7 @@ sourceWordPressId: 1131
 
 <p>To determine the number of required electrodes, calculations are used extremely rarely. Mostly they use the experimental method. The most common number of electrodes is three. Thus, a triangular-shaped ground loop is obtained. The vertices of the triangle are the electrodes. A distance between adjacent electrodes of less than 1.2 m is unacceptable. It is calculated based on soil resistance. The electrodes are connected using metal strips. A similar strip also serves to connect the circuit to the distribution circuit.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="450" class="wp-image-1132" src="/wp-content/uploads/2024/01/Materials-required-for-installation-of-the-ground-loop.webp" alt="" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="450" class="wp-image-1132" src="/wp-content/uploads/2024/01/Materials-required-for-installation-of-the-ground-loop.webp" alt="Metal rods and connecting strips laid out as the materials needed to install a ground loop" /></figure>
 
 <p>Before installing a ground loop, be sure to consult a qualified electrician in the area. Such a specialist knows from experience how to make a grounding loop that is ideal for a given area:</p>
 

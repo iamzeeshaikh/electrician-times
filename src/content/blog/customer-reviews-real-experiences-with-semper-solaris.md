@@ -39,7 +39,7 @@ sourceWordPressId: 1476
 <h3>Semper Solaris Customer Service</h3>
 <p><strong>Semper Solaris customer service</strong> is another aspect that receives high praise. Customers appreciate the responsive and helpful support they receive before, during, and after the installation. "The customer service team was always available to answer our questions and guide us through the entire process," one reviewer commented.</p>
 <h2>Semper Solaris vs. Other San Diego Solar Companies</h2>
-<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-1479" src="/wp-content/uploads/2024/07/Semper-Solaris2.jpg" alt="" width="468" height="350" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter  wp-image-1479" src="/wp-content/uploads/2024/07/Semper-Solaris2.jpg" alt="Semper Solaris solar panel installation work on a San Diego home" width="468" height="350" /></p>
 <h3>Top Solar Companies in San Diego</h3>
 <p>Among the <strong>top solar companies in San Diego</strong>, Semper Solaris stands out due to its comprehensive service offerings and customer-centric approach. While there are many reputable firms in the area, Semper Solaris's dedication to quality and customer satisfaction sets it apart.</p>
 <h3>Comparison with SunPower San Diego</h3>

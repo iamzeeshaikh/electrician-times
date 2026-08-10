@@ -79,7 +79,7 @@ sourceWordPressId: 1085
 
 <p>Video recording of the arc breakdown and recording of electrical parameters were carried out as shown in Fig. 1. The applied model made it possible to connect conductors and disconnect connections, to use copper and aluminium conductors of different sections and configurations, including together with different terminal parts.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="293" src="/wp-content/uploads/2024/01/Research-methods-and-principles.webp" alt="" class="wp-image-1086"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="293" src="/wp-content/uploads/2024/01/Research-methods-and-principles.webp" alt="Test rig used to trial arc fault detection devices on copper and aluminium conductors" class="wp-image-1086"/></figure>
 
 <p>In total, more than a thousand tests were performed. The first tests were performed to verify the functionality of arc circuit breakers from five manufacturers (Eaton, EKF, IEK, Ecolight, and EKM). In this case, instead of metal conductors, graphite welding electrodes with a diameter of 8 mm were installed, and breakdown and self-regulation of the arc were obtained using a Yablochkov candle.</p>
 

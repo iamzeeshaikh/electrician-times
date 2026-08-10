@@ -21,7 +21,7 @@ sourceWordPressId: 1067
 
 <p>In this article, we will look at the best electricity meters, compile the top meters of 2023, and also discuss the advantages of “smart” metering devices. For comparison, I found on the Internet a description of three approximately identical meters of 2023 - MIR S-05, TsE2726A and FOBOS 1.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="281" src="/wp-content/uploads/2024/01/Comparison-of-the-three-best-smart-meters-of-2023.webp" alt="" class="wp-image-1068"/><figcaption class="wp-element-caption">Comparison of the three best smart meters of 2023</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="500" height="281" src="/wp-content/uploads/2024/01/Comparison-of-the-three-best-smart-meters-of-2023.webp" alt="The MIR S-05, TsE2726A and FOBOS 1 smart electricity meters shown side by side for comparison" class="wp-image-1068"/><figcaption class="wp-element-caption">Comparison of the three best smart meters of 2023</figcaption></figure>
 
 <p>Without electricity, it is very difficult to imagine the life of a modern person. Of course, it is completely impossible to imagine an apartment or residential building without an electric meter, according to the readings of which each consumer pays for the consumed kilowatt-hours.</p>
 

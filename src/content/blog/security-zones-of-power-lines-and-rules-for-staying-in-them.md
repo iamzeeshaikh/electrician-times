@@ -29,7 +29,7 @@ sourceWordPressId: 1035
 
 <p>The protection zone of cable lines laid along the bottom of reservoirs is in all cases 100 m.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="448" height="336" src="/wp-content/uploads/2024/01/Security-zones-of-power-lines-and-rules-for-staying-in-them.webp" alt="" class="wp-image-1037"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="448" height="336" src="/wp-content/uploads/2024/01/Security-zones-of-power-lines-and-rules-for-staying-in-them.webp" alt="An overhead power line with its security zone extending either side of the conductors" class="wp-image-1037"/></figure>
 
 <p>Human activity in the power transmission line protection zone</p>
 
@@ -47,7 +47,7 @@ sourceWordPressId: 1035
 
 <p>When preparing documents for a new plot of land along which a power line runs, or when planning any work, it is necessary to obtain permission from the organization that maintains these electrical networks.&nbsp;Particular attention should be paid to cable lines, which are very often discovered only if they are accidentally damaged during excavation work on the site.</p>
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="448" height="309" src="/wp-content/uploads/2024/01/cscreenshot-q7bb.webp" alt="" class="wp-image-1036"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" loading="lazy" width="448" height="309" src="/wp-content/uploads/2024/01/cscreenshot-q7bb.webp" alt="A buried cable line exposed during excavation work on a site" class="wp-image-1036"/></figure>
 
 <p>Rules for staying in the security zone of power lines</p>
 
