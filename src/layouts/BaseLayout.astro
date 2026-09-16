@@ -36,6 +36,9 @@ const props = Astro.props;
     <SeoHead {...props} />
     <slot name="head" />
     <meta name="generator" content={Astro.generator} />
+    <!-- Google Analytics 4 -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-X63939NM98"></script>
+    <script is:inline>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-X63939NM98');</script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
